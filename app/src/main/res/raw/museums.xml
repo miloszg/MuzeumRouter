@@ -90,7 +90,6 @@
     <tag k="wikidata" v="Q4679497"/>
     <tag k="wikipedia" v="pl:Muzeum Literatury im. Adama Mickiewicza w Warszawie"/>
   </node>
-
   <node id="338509200" version="8" timestamp="2018-08-10T09:34:19Z" lat="52.2434153" lon="21.0097521">
     <tag k="addr:city" v="Warszawa"/>
     <tag k="addr:housenumber" v="1"/>
@@ -125,12 +124,6 @@
     <tag k="phone" v="+48 261877244"/>
     <tag k="tourism" v="museum"/>
     <tag k="website" v="http://www.muzeumkatynskie.pl/"/>
-  </node>
-  <node id="349189425" version="3" timestamp="2016-05-20T17:28:47Z" lat="52.4575322" lon="21.9445699">
-    <tag k="name" v="pałac Radziwiłłów (ośrodek NBP)"/>
-    <tag k="source" v="http://ump.waw.pl/ retrieved 13:46:44 02/22/09 (UMP-Siedlce/src/POI-Siedlce.pnt-converted.txt)"/>
-    <tag k="tourism" v="museum"/>
-    <tag k="addr:city" v="Stara Wieś"/>
   </node>
   <node id="369549823" version="5" timestamp="2017-04-26T23:06:20Z" lat="52.2333872" lon="20.98111">
     <tag k="email" v="office@muzeumnurkowania.pl"/>
@@ -293,20 +286,6 @@
     <tag k="addr:street" v="Nieświeska"/>
     <tag k="name" v="Muzeum Liczników"/>
     <tag k="opening_hours" v="Mo-Fr 08:00-14:00"/>
-    <tag k="tourism" v="museum"/>
-  </node>
-  <node id="1774628180" version="3" timestamp="2019-09-20T12:10:27Z" lat="52.1730618" lon="20.8075932">
-    <tag k="addr:city" v="Pruszków"/>
-    <tag k="addr:country" v="PL"/>
-    <tag k="addr:housenumber" v="8a"/>
-    <tag k="addr:postcode" v="05-800"/>
-    <tag k="addr:street" v="3 Maja"/>
-    <tag k="contact:email" v="dulag@dulag121.pl"/>
-    <tag k="contact:fax" v="+48 227588663"/>
-    <tag k="contact:phone" v="+48 227588663"/>
-    <tag k="contact:website" v="http://www.dulag121.pl"/>
-    <tag k="name" v="Muzeum DULAG 121"/>
-    <tag k="opening_hours" v="Tu, We 09:00-17:00; Th 12:00-19:00; Fr 09:00-16:00; Sa 12:00-17:00; Su 11:00-16:00"/>
     <tag k="tourism" v="museum"/>
   </node>
   <node id="1793614691" version="4" timestamp="2019-03-14T02:18:21Z" lat="52.2741639" lon="20.9968897">

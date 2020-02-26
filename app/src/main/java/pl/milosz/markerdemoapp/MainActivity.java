@@ -11,6 +11,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.provider.Settings;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,6 +21,7 @@ import com.google.android.material.navigation.NavigationView;
 
 import pl.milosz.markerdemoapp.MuseumList.MuseumListActivity;
 import pl.milosz.markerdemoapp.Map.MapActivity;
+import pl.milosz.markerdemoapp.RouteList.RouteListActivity;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -79,6 +81,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_marker:
                 Intent markerIntent = new Intent(this, MuseumListActivity.class);
                 startActivity(markerIntent);
+                break;
+            case R.id.nav_route:
+                Intent routeIntent = new Intent(this, RouteListActivity.class);
+                startActivity(routeIntent);
                 break;
             case R.id.nav_settings:
                 Intent intent_settings = new Intent();

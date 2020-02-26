@@ -10,8 +10,12 @@
             android:title="Mapa" />
         <item
             android:id="@+id/nav_marker"
-            android:icon="@drawable/ic_marker_black"
+            android:icon="@drawable/ic_museum_black"
             android:title="Lista Muzeum" />
+        <item
+            android:id="@+id/nav_route"
+            android:icon="@drawable/ic_marker_black"
+            android:title="Scieżki" />
     </group>
     <item android:title="Inne">
         <menu>

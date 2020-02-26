@@ -19,7 +19,7 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
     implementation 'androidx.appcompat:appcompat:1.1.0'
     api group: 'com.google.android.material', name: 'material', version: '1.0.0-alpha1'
     api group: 'org.osmdroid', name: 'osmdroid-android', version: '6.0.0'
@@ -28,4 +28,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //osm bonuspack
+    api 'org.osmdroid:osmdroid-android:6.1.0'
+    api 'org.apache.commons:commons-lang3:3.3.4'
+    api 'com.google.code.gson:gson:2.8.5'
+    api 'com.squareup.okhttp3:okhttp:3.10.0'
+    api 'com.github.MKergall:osmbonuspack:6.6.0'
 }
