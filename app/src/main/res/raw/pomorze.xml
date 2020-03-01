@@ -1,0 +1,3337 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="Osmosis 0.47">
+  <bounds minlon="16.68672" minlat="53.48060" maxlon="19.66069" maxlat="55.08543" origin="osmium/1.8.0"/>
+  <node id="868392528" version="4" timestamp="2018-04-21T14:09:17Z" lat="54.6967981" lon="18.6822196">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="height" v="18"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Kasztanowiec zwyczajny"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="1411597339" version="3" timestamp="2019-08-23T06:24:27Z" lat="53.8174207" lon="17.5324197">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="diameter" v="400"/>
+    <tag k="genus" v="Quercus"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Dąb Bartuś"/>
+    <tag k="natural" v="tree"/>
+    <tag k="start_date" v="1400r."/>
+  </node>
+  <node id="1773265655" version="17" timestamp="2017-09-12T18:37:20Z" lat="54.4636543" lon="18.4717788">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="genus" v="Pseudotsuga"/>
+    <tag k="is_in:city" v="Gdynia"/>
+    <tag k="leaf_type" v="needleleaved"/>
+    <tag k="name" v="Daglezja"/>
+    <tag k="name:botanical" v="Pseudotsuga Carriere"/>
+    <tag k="name:en" v="Douglas-fir"/>
+    <tag k="name:lt" v="Pocūgė"/>
+    <tag k="name:pl" v="Daglezja"/>
+    <tag k="name:uk" v="Псевдотсуга"/>
+    <tag k="natural" v="tree"/>
+    <tag k="note" v="quite hard to find, there are few of them"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="ref" v="POM262"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="species:wikidata" v="Q158771"/>
+    <tag k="species:wikipedia" v="pl:Daglezja"/>
+    <tag k="taxon" v="Pseudotsuga Carriere"/>
+    <tag k="taxon:genus:en" v="Douglas-fir"/>
+    <tag k="taxon:genus:pl" v="Daglezja"/>
+  </node>
+  <node id="1773283660" version="9" timestamp="2016-07-20T13:03:01Z" lat="54.4537552" lon="18.4791327">
+    <tag k="ref" v="POM302"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="name:en" v="monument of nature"/>
+    <tag k="natural" v="tree"/>
+    <tag k="tourism" v="attraction"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="is_in:city" v="Gdynia"/>
+    <tag k="description" v="easy to spot from a track"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="taxon:genus:en" v="Oak"/>
+    <tag k="taxon:genus:pl" v="Dąb"/>
+  </node>
+  <node id="1773289235" version="8" timestamp="2018-03-29T17:08:51Z" lat="54.4452972" lon="18.4891913">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="is_in:city" v="Gdynia"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Dąb szypułkowy &quot;Dewajtis&quot;"/>
+    <tag k="name:en" v="Monument of Nature &apos;Dewajtis Oak&apos;"/>
+    <tag k="natural" v="tree"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="ref" v="POM301"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="taxon:genus:en" v="Oak"/>
+    <tag k="taxon:genus:pl" v="Dąb"/>
+    <tag k="tourism" v="attraction"/>
+  </node>
+  <node id="1773301002" version="4" timestamp="2012-06-09T07:34:49Z" lat="54.4432239" lon="18.5064609">
+    <tag k="ref" v="POM305"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1773301006" version="4" timestamp="2012-06-09T07:34:49Z" lat="54.4440046" lon="18.5128583">
+    <tag k="ref" v="POM304"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1773301009" version="5" timestamp="2012-06-09T07:34:49Z" lat="54.4448494" lon="18.4960811">
+    <tag k="ref" v="POM300"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="is_in:city" v="Gdynia"/>
+  </node>
+  <node id="1773301011" version="4" timestamp="2012-06-09T07:34:50Z" lat="54.4481713" lon="18.5117864">
+    <tag k="ref" v="POM295"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1773301012" version="5" timestamp="2012-06-09T07:34:50Z" lat="54.4483696" lon="18.5019682">
+    <tag k="ref" v="POM297"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="is_in:city" v="Gdynia"/>
+  </node>
+  <node id="1773301013" version="5" timestamp="2012-06-09T07:34:50Z" lat="54.4484343" lon="18.4984228">
+    <tag k="ref" v="POM298"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="is_in:city" v="Gdynia"/>
+  </node>
+  <node id="1773301014" version="5" timestamp="2012-06-09T07:34:50Z" lat="54.448816" lon="18.5042805">
+    <tag k="ref" v="POM296"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="is_in:city" v="Gdynia"/>
+  </node>
+  <node id="1773301015" version="4" timestamp="2012-06-09T07:34:50Z" lat="54.449176" lon="18.495278">
+    <tag k="ref" v="POM299"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="is_in:city" v="Gdynia"/>
+  </node>
+  <node id="1773301016" version="5" timestamp="2012-06-09T07:34:50Z" lat="54.4507938" lon="18.5119597">
+    <tag k="ref" v="POM294"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="is_in:city" v="Gdynia"/>
+  </node>
+  <node id="1773309430" version="12" timestamp="2018-03-29T17:08:50Z" lat="54.4443844" lon="18.4917565">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="genus" v="Thuja"/>
+    <tag k="is_in:city" v="Gdynia"/>
+    <tag k="leaf_type" v="needleleaved"/>
+    <tag k="name" v="Żywotnik olbrzymi &quot;Kępa żywotnika&quot;"/>
+    <tag k="natural" v="tree"/>
+    <tag k="note" v="America origin"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="ref" v="POM369"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="species" v="Thuja plicata Donn ex D.Don"/>
+    <tag k="species:wikidata" v="Q147417"/>
+    <tag k="species:wikipedia" v="pl:Żywotnik olbrzymi"/>
+    <tag k="taxon" v="Thuja plicata"/>
+    <tag k="taxon:genus:en" v="Giant Cedar"/>
+    <tag k="taxon:genus:pl" v="Żywotnik Olbrzymi"/>
+    <tag k="tourism" v="attraction"/>
+  </node>
+  <node id="1773455237" version="3" timestamp="2012-06-09T07:34:49Z" lat="54.4350504" lon="18.4803915">
+    <tag k="ref" v="POM308"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="is_in" v="Gdynia"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="natural" v="tree"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1773475034" version="2" timestamp="2012-06-09T07:34:48Z" lat="54.4251872" lon="18.4869208">
+    <tag k="ref" v="POM311"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="is_in" v="Gdynia"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1773475035" version="3" timestamp="2013-10-11T20:01:46Z" lat="54.4262977" lon="18.4855589">
+    <tag k="ref" v="POM310"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="is_in" v="Gdynia"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1773475036" version="3" timestamp="2012-06-09T07:34:49Z" lat="54.4273252" lon="18.5240252">
+    <tag k="ref" v="POM313"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="is_in" v="Gdynia"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1773475037" version="3" timestamp="2012-06-09T07:34:49Z" lat="54.4337929" lon="18.5024858">
+    <tag k="ref" v="POM306"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="is_in" v="Gdynia"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1773475038" version="3" timestamp="2012-06-09T07:34:49Z" lat="54.4375468" lon="18.537468">
+    <tag k="ref" v="POM290"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="is_in" v="Gdynia"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1773475039" version="3" timestamp="2012-06-09T07:34:49Z" lat="54.4391098" lon="18.5410624">
+    <tag k="ref" v="POM291"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="is_in" v="Gdynia"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1773475040" version="3" timestamp="2012-06-09T07:34:50Z" lat="54.4461544" lon="18.5240114">
+    <tag k="ref" v="POM303"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="is_in" v="Gdynia"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1773475041" version="3" timestamp="2012-06-09T07:34:50Z" lat="54.4516373" lon="18.5448761">
+    <tag k="ref" v="POM282"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="is_in" v="Gdynia"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1773475042" version="3" timestamp="2012-06-09T07:34:50Z" lat="54.4531416" lon="18.543496">
+    <tag k="ref" v="POM283"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="is_in" v="Gdynia"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1773475045" version="2" timestamp="2012-06-09T07:34:51Z" lat="54.463399" lon="18.5353354">
+    <tag k="ref" v="POM257"/>
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="is_in" v="Gdynia"/>
+    <tag k="source" v="local_knowledge"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1792679601" version="6" timestamp="2017-09-12T18:37:21Z" lat="54.608996" lon="18.5135919">
+    <tag k="alt_name" v="Świętopełek"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="genus" v="Fraxinus"/>
+    <tag k="is_in:city" v="Gdynia"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Jesion wyniosły"/>
+    <tag k="name:botanical" v="Fraxinus excelsior"/>
+    <tag k="name:en" v="Ash"/>
+    <tag k="natural" v="tree"/>
+    <tag k="note" v="obwód 462 i 520cm, wiek 250lat"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="ref" v="296"/>
+    <tag k="species:wikidata" v="Q156907"/>
+    <tag k="species:wikipedia" v="pl:Jesion wyniosły"/>
+    <tag k="taxon" v="Fraxinus excelsior"/>
+    <tag k="taxon:genus:en" v="Ash"/>
+    <tag k="taxon:genus:pl" v="Jesion"/>
+  </node>
+  <node id="1792679640" version="5" timestamp="2017-09-12T18:37:21Z" lat="54.6090592" lon="18.5135722">
+    <tag k="alt_name" v="Mściwoj"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="genus" v="Fraxinus"/>
+    <tag k="is_in:city" v="Gdynia"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Jesion wyniosły"/>
+    <tag k="name:botanical" v="Fraxinus excelsior"/>
+    <tag k="name:en" v="Ash"/>
+    <tag k="natural" v="tree"/>
+    <tag k="note" v="obwód 462 i 520cm, wiek 250lat"/>
+    <tag k="opening_hours" v="24/7"/>
+    <tag k="ref" v="296"/>
+    <tag k="species:wikidata" v="Q156907"/>
+    <tag k="species:wikipedia" v="pl:Jesion wyniosły"/>
+    <tag k="taxon" v="Fraxinus excelsior"/>
+    <tag k="taxon:genus:en" v="Ash"/>
+    <tag k="taxon:genus:pl" v="Jesion"/>
+  </node>
+  <node id="1794437419" version="2" timestamp="2014-08-14T13:38:31Z" lat="54.3583469" lon="18.5800118">
+    <tag k="natural" v="tree"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1833326496" version="2" timestamp="2014-08-14T13:38:32Z" lat="54.446453" lon="18.4719202">
+    <tag k="source" v="GPS"/>
+    <tag k="natural" v="tree"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="1958109552" version="1" timestamp="2012-10-11T08:55:36Z" lat="54.4810391" lon="18.5454866"/>
+  <node id="1958109555" version="1" timestamp="2012-10-11T08:55:36Z" lat="54.4811269" lon="18.5454581"/>
+  <node id="1958109584" version="1" timestamp="2012-10-11T08:55:37Z" lat="54.4834566" lon="18.5472927"/>
+  <node id="1958109585" version="1" timestamp="2012-10-11T08:55:37Z" lat="54.4835415" lon="18.5474508"/>
+  <node id="2723945884" version="1" timestamp="2014-03-17T19:10:10Z" lat="54.389426" lon="18.5040578">
+    <tag k="natural" v="tree"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="2841473422" version="4" timestamp="2018-04-21T14:09:17Z" lat="54.6054694" lon="18.8023198">
+    <tag k="access" v="private"/>
+    <tag k="age" v="300 years"/>
+    <tag k="circumference" v="4.60"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="description" v="Teren plebani, ale z wejściem nie ma problemów. Drzewo świetnie widoczne z ulicy."/>
+    <tag k="genus" v="Quercus"/>
+    <tag k="genus:en" v="Oak"/>
+    <tag k="genus:pl" v="Dąb"/>
+    <tag k="height" v="30"/>
+    <tag k="inscription" v="Roku Pańskiego 1655, w czasie Potopu Szwedzkiego, pewna wiewiórka robiąc zapasy, zakopała w tym miejscu swoje rarytasy. ... ..."/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Dąb szypułkowy &quot;Franciszek&quot;"/>
+    <tag k="natural" v="tree"/>
+    <tag k="tourism" v="attraction"/>
+  </node>
+  <node id="2934710280" version="2" timestamp="2014-08-14T13:38:23Z" lat="53.9979133" lon="17.6675814">
+    <tag k="name" v="Buk zwyczajny"/>
+    <tag k="natural" v="tree"/>
+    <tag k="species" v="Fagus sylvatica"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="2934710281" version="3" timestamp="2018-01-12T22:09:12Z" lat="53.9989299" lon="17.6685097">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="species" v="Quercus robur"/>
+    <tag k="species:pl" v="Dąb szypułkowy"/>
+  </node>
+  <node id="2934791026" version="2" timestamp="2014-08-14T13:48:18Z" lat="53.8628707" lon="18.859476">
+    <tag k="natural" v="tree"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="2941124749" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6198211" lon="18.739062"/>
+  <node id="2941124750" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6198607" lon="18.7392121"/>
+  <node id="2941124751" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6203056" lon="18.7388145"/>
+  <node id="2941124752" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6204445" lon="18.7388779"/>
+  <node id="2941124753" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.620773" lon="18.7385148"/>
+  <node id="2941124754" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6207778" lon="18.7387016"/>
+  <node id="2941124755" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.621221" lon="18.7382609"/>
+  <node id="2941124756" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6212798" lon="18.7380147"/>
+  <node id="2941124757" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.621758" lon="18.7374434"/>
+  <node id="2941124758" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.621868" lon="18.7375135"/>
+  <node id="2941124759" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6222535" lon="18.7371316"/>
+  <node id="2941124760" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6227988" lon="18.7363323"/>
+  <node id="2941124761" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6231009" lon="18.7363071"/>
+  <node id="2941124762" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6236334" lon="18.7356381"/>
+  <node id="2941124764" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6237953" lon="18.7356584"/>
+  <node id="2941124765" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6249584" lon="18.734351"/>
+  <node id="2941124766" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6263353" lon="18.732691"/>
+  <node id="2941124767" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6263894" lon="18.7327938"/>
+  <node id="2941124768" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6283935" lon="18.7304444"/>
+  <node id="2941124769" version="1" timestamp="2014-06-30T21:03:05Z" lat="53.6284315" lon="18.7306242"/>
+  <node id="3059931150" version="1" timestamp="2014-09-04T20:19:33Z" lat="53.7508105" lon="18.7237973">
+    <tag k="natural" v="tree"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="3062506989" version="4" timestamp="2019-03-19T06:04:12Z" lat="54.4793056" lon="17.6812422">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Dąb Świętopełk"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="3499675601" version="1" timestamp="2015-05-05T18:48:58Z" lat="54.4480507" lon="18.4877054">
+    <tag k="name" v="Pomnik Przyrody"/>
+    <tag k="natural" v="tree"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="3800855114" version="4" timestamp="2018-01-09T19:38:40Z" lat="54.0003892" lon="17.6662524">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="species" v="Quercus robur"/>
+    <tag k="species:pl" v="Dąb szypułkowy"/>
+  </node>
+  <node id="3800863679" version="2" timestamp="2018-01-12T22:09:02Z" lat="54.0013993" lon="17.6656499">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="species:pl" v="Dąb szypułkowy"/>
+  </node>
+  <node id="3800875953" version="2" timestamp="2015-11-02T21:55:12Z" lat="53.9738464" lon="17.6414262">
+    <tag k="name" v="Lipa"/>
+    <tag k="natural" v="tree"/>
+    <tag k="species" v="Tilia cordata"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="denotation" v="natural_monument"/>
+  </node>
+  <node id="4038955738" version="2" timestamp="2018-03-29T15:36:21Z" lat="54.4828465" lon="18.5399283">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Kasztanowiec zwyczajny"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="4038955739" version="2" timestamp="2018-03-29T15:36:21Z" lat="54.4829228" lon="18.5398553">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Kasztanowiec zwyczajny"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="4311820324" version="1" timestamp="2016-07-19T20:25:15Z" lat="53.7913693" lon="17.5190138">
+    <tag k="name" v="Pomnik przyrody Dąb Szypułkowy"/>
+    <tag k="natural" v="tree"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+  </node>
+  <node id="4323199588" version="2" timestamp="2019-09-28T15:42:02Z" lat="54.4732448" lon="18.5565084">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Kasztanowiec zwyczajny"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="4398956485" version="1" timestamp="2016-09-13T14:29:25Z" lat="54.3720972" lon="18.6002769">
+    <tag k="natural" v="tree"/>
+    <tag k="tourism" v="attraction"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+  </node>
+  <node id="4706667051" version="1" timestamp="2017-02-26T14:42:39Z" lat="53.7410962" lon="17.9290619">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0416063.2118"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0416063.2118"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0416063.2118"/>
+  </node>
+  <node id="4706667104" version="1" timestamp="2017-02-26T14:42:44Z" lat="53.6849501" lon="17.83796">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0416063.2079"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0416063.2079"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0416063.2079"/>
+  </node>
+  <node id="4706667110" version="1" timestamp="2017-02-26T14:42:45Z" lat="53.66937" lon="17.7468701">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0416063.2072"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0416063.2072"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0416063.2072"/>
+  </node>
+  <node id="4706667111" version="1" timestamp="2017-02-26T14:42:45Z" lat="53.6694101" lon="17.747">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0416063.2072"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0416063.2072"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0416063.2072"/>
+  </node>
+  <node id="4706667149" version="1" timestamp="2017-02-26T14:42:48Z" lat="53.7450429" lon="18.0617038">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0416052.1926"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0416052.1926"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0416052.1926"/>
+  </node>
+  <node id="4706667150" version="1" timestamp="2017-02-26T14:42:48Z" lat="53.7450542" lon="18.0617614">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0416052.1926"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0416052.1926"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0416052.1926"/>
+  </node>
+  <node id="4706668774" version="1" timestamp="2017-02-26T14:44:02Z" lat="53.6764484" lon="18.5133794">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414112.2144"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414112.2144"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414112.2144"/>
+  </node>
+  <node id="4706669029" version="1" timestamp="2017-02-26T14:44:07Z" lat="53.6626334" lon="18.530352">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414112.2133"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414112.2133"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414112.2133"/>
+  </node>
+  <node id="4706670359" version="1" timestamp="2017-02-26T14:45:11Z" lat="53.6264158" lon="18.7327526">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670360" version="1" timestamp="2017-02-26T14:45:11Z" lat="53.6262662" lon="18.7329181">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670361" version="1" timestamp="2017-02-26T14:45:11Z" lat="53.6259347" lon="18.733114">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670362" version="1" timestamp="2017-02-26T14:45:11Z" lat="53.6257222" lon="18.733328">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670363" version="1" timestamp="2017-02-26T14:45:11Z" lat="53.6256034" lon="18.733467">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670364" version="1" timestamp="2017-02-26T14:45:11Z" lat="53.6254894" lon="18.7335722">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670365" version="1" timestamp="2017-02-26T14:45:11Z" lat="53.6255075" lon="18.7337788">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670366" version="1" timestamp="2017-02-26T14:45:11Z" lat="53.6253772" lon="18.7337183">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670367" version="1" timestamp="2017-02-26T14:45:11Z" lat="53.6254128" lon="18.7338923">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670368" version="1" timestamp="2017-02-26T14:45:12Z" lat="53.6252992" lon="18.7340119">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670369" version="1" timestamp="2017-02-26T14:45:12Z" lat="53.6252055" lon="18.7339467">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670370" version="1" timestamp="2017-02-26T14:45:12Z" lat="53.625109" lon="18.7340084">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670371" version="1" timestamp="2017-02-26T14:45:12Z" lat="53.6250873" lon="18.7342603">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670372" version="1" timestamp="2017-02-26T14:45:12Z" lat="53.6249842" lon="18.7341578">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670373" version="1" timestamp="2017-02-26T14:45:12Z" lat="53.6248742" lon="18.7344724">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670374" version="1" timestamp="2017-02-26T14:45:12Z" lat="53.6243183" lon="18.7350607">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670375" version="1" timestamp="2017-02-26T14:45:12Z" lat="53.6242725" lon="18.7349406">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670376" version="1" timestamp="2017-02-26T14:45:12Z" lat="53.6240733" lon="18.7351674">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670377" version="1" timestamp="2017-02-26T14:45:12Z" lat="53.6238568" lon="18.7353885">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670378" version="1" timestamp="2017-02-26T14:45:12Z" lat="53.6238605" lon="18.7355938">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670379" version="1" timestamp="2017-02-26T14:45:12Z" lat="53.6236661" lon="18.7355908">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670380" version="1" timestamp="2017-02-26T14:45:12Z" lat="53.6236392" lon="18.7358033">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670381" version="1" timestamp="2017-02-26T14:45:13Z" lat="53.6235439" lon="18.7357346">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670382" version="1" timestamp="2017-02-26T14:45:13Z" lat="53.6234248" lon="18.7358128">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670383" version="1" timestamp="2017-02-26T14:45:13Z" lat="53.6232015" lon="18.7360518">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670384" version="1" timestamp="2017-02-26T14:45:13Z" lat="53.6230748" lon="18.7363">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670385" version="1" timestamp="2017-02-26T14:45:13Z" lat="53.62287" lon="18.7364823">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670386" version="1" timestamp="2017-02-26T14:45:13Z" lat="53.622651" lon="18.7366773">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670387" version="1" timestamp="2017-02-26T14:45:13Z" lat="53.6225331" lon="18.7366124">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670388" version="1" timestamp="2017-02-26T14:45:13Z" lat="53.6223184" lon="18.7368338">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670489" version="1" timestamp="2017-02-26T14:45:13Z" lat="53.6222144" lon="18.7369146">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670490" version="1" timestamp="2017-02-26T14:45:13Z" lat="53.6222003" lon="18.7371406">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670491" version="1" timestamp="2017-02-26T14:45:13Z" lat="53.6221101" lon="18.7370335">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670492" version="1" timestamp="2017-02-26T14:45:13Z" lat="53.6220808" lon="18.7373061">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670493" version="1" timestamp="2017-02-26T14:45:14Z" lat="53.621969" lon="18.7374338">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670494" version="1" timestamp="2017-02-26T14:45:14Z" lat="53.621891" lon="18.7373047">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670495" version="1" timestamp="2017-02-26T14:45:14Z" lat="53.6217833" lon="18.7376323">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670496" version="1" timestamp="2017-02-26T14:45:14Z" lat="53.6216584" lon="18.7377482">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670497" version="1" timestamp="2017-02-26T14:45:14Z" lat="53.6215655" lon="18.7376663">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670498" version="1" timestamp="2017-02-26T14:45:14Z" lat="53.6212898" lon="18.7381884">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670499" version="1" timestamp="2017-02-26T14:45:14Z" lat="53.6211665" lon="18.7380913">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670500" version="1" timestamp="2017-02-26T14:45:14Z" lat="53.6210769" lon="18.7382142">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670501" version="1" timestamp="2017-02-26T14:45:14Z" lat="53.6210198" lon="18.7385122">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670502" version="1" timestamp="2017-02-26T14:45:14Z" lat="53.6208237" lon="18.7384587">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670503" version="1" timestamp="2017-02-26T14:45:14Z" lat="53.6208011" lon="18.7386987">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670504" version="1" timestamp="2017-02-26T14:45:14Z" lat="53.6206636" lon="18.7385826">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670505" version="1" timestamp="2017-02-26T14:45:14Z" lat="53.6205902" lon="18.7388285">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670506" version="1" timestamp="2017-02-26T14:45:14Z" lat="53.6205151" lon="18.7386832">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670507" version="1" timestamp="2017-02-26T14:45:15Z" lat="53.6202807" lon="18.7388273">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670508" version="1" timestamp="2017-02-26T14:45:15Z" lat="53.6202331" lon="18.7390198">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670509" version="1" timestamp="2017-02-26T14:45:15Z" lat="53.6201318" lon="18.7390804">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670510" version="1" timestamp="2017-02-26T14:45:15Z" lat="53.6200075" lon="18.7389623">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670511" version="1" timestamp="2017-02-26T14:45:15Z" lat="53.6199198" lon="18.7391914">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670512" version="1" timestamp="2017-02-26T14:45:16Z" lat="53.6198442" lon="18.7390514">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670513" version="1" timestamp="2017-02-26T14:45:16Z" lat="53.6196755" lon="18.7391557">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670514" version="1" timestamp="2017-02-26T14:45:16Z" lat="53.6195575" lon="18.7392236">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670515" version="1" timestamp="2017-02-26T14:45:16Z" lat="53.6194117" lon="18.7394564">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670516" version="1" timestamp="2017-02-26T14:45:16Z" lat="53.6189213" lon="18.7395894">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670517" version="1" timestamp="2017-02-26T14:45:16Z" lat="53.6183483" lon="18.7399156">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670518" version="1" timestamp="2017-02-26T14:45:16Z" lat="53.6176025" lon="18.7403262">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670519" version="1" timestamp="2017-02-26T14:45:16Z" lat="53.6172035" lon="18.740544">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670520" version="1" timestamp="2017-02-26T14:45:16Z" lat="53.6170388" lon="18.7406345">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670521" version="1" timestamp="2017-02-26T14:45:16Z" lat="53.6160509" lon="18.7413572">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670522" version="1" timestamp="2017-02-26T14:45:16Z" lat="53.6160179" lon="18.741165">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670523" version="1" timestamp="2017-02-26T14:45:16Z" lat="53.6158894" lon="18.7412742">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670524" version="1" timestamp="2017-02-26T14:45:16Z" lat="53.6153308" lon="18.7417271">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1266"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1266"/>
+  </node>
+  <node id="4706670570" version="1" timestamp="2017-02-26T14:45:20Z" lat="53.6824676" lon="18.690089">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1260"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1260"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1260"/>
+  </node>
+  <node id="4706670571" version="1" timestamp="2017-02-26T14:45:20Z" lat="53.682618" lon="18.6893978">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0414063.1260"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0414063.1260"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0414063.1260"/>
+  </node>
+  <node id="4706673915" version="1" timestamp="2017-02-26T14:47:46Z" lat="53.4922302" lon="17.3940177">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1675"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1675"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1675"/>
+  </node>
+  <node id="4706673916" version="1" timestamp="2017-02-26T14:47:47Z" lat="53.491367" lon="17.3999339">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1674"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1674"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1674"/>
+  </node>
+  <node id="4706673918" version="1" timestamp="2017-02-26T14:47:47Z" lat="53.59305" lon="17.4546306">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.867"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.867"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.867"/>
+  </node>
+  <node id="4706673919" version="1" timestamp="2017-02-26T14:47:47Z" lat="53.6030903" lon="17.4870754">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.866"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.866"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.866"/>
+  </node>
+  <node id="4706673920" version="1" timestamp="2017-02-26T14:47:47Z" lat="53.6030344" lon="17.4872737">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.866"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.866"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.866"/>
+  </node>
+  <node id="4706673921" version="1" timestamp="2017-02-26T14:47:47Z" lat="53.602919" lon="17.4882384">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.866"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.866"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.866"/>
+  </node>
+  <node id="4706673922" version="1" timestamp="2017-02-26T14:47:47Z" lat="53.5789711" lon="17.4339034">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.865"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.865"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.865"/>
+  </node>
+  <node id="4706674433" version="1" timestamp="2017-02-26T14:47:38Z" lat="53.4910289" lon="17.3922072">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1701"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1701"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1701"/>
+  </node>
+  <node id="4706674434" version="1" timestamp="2017-02-26T14:47:38Z" lat="53.4909143" lon="17.3930558">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1701"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1701"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1701"/>
+  </node>
+  <node id="4706674435" version="1" timestamp="2017-02-26T14:47:38Z" lat="53.4907822" lon="17.3935426">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1701"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1701"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1701"/>
+  </node>
+  <node id="4706674436" version="1" timestamp="2017-02-26T14:47:39Z" lat="53.4907182" lon="17.393197">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1701"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1701"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1701"/>
+  </node>
+  <node id="4706674437" version="1" timestamp="2017-02-26T14:47:39Z" lat="53.4912018" lon="17.3919825">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1701"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1701"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1701"/>
+  </node>
+  <node id="4706674438" version="1" timestamp="2017-02-26T14:47:39Z" lat="53.4918888" lon="17.3928481">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1700"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1700"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1700"/>
+  </node>
+  <node id="4706674439" version="1" timestamp="2017-02-26T14:47:39Z" lat="53.4911513" lon="17.3994877">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1699"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1699"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1699"/>
+  </node>
+  <node id="4706674440" version="1" timestamp="2017-02-26T14:47:39Z" lat="53.4909108" lon="17.3985498">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1699"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1699"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1699"/>
+  </node>
+  <node id="4706674441" version="1" timestamp="2017-02-26T14:47:39Z" lat="53.4905331" lon="17.3982078">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674442" version="1" timestamp="2017-02-26T14:47:39Z" lat="53.4905662" lon="17.3979523">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674443" version="1" timestamp="2017-02-26T14:47:39Z" lat="53.4904733" lon="17.3979054">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674444" version="1" timestamp="2017-02-26T14:47:39Z" lat="53.4902419" lon="17.3980891">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674445" version="1" timestamp="2017-02-26T14:47:39Z" lat="53.4902117" lon="17.3982012">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674446" version="1" timestamp="2017-02-26T14:47:39Z" lat="53.4902611" lon="17.3978815">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674447" version="1" timestamp="2017-02-26T14:47:39Z" lat="53.4897197" lon="17.3968473">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674448" version="1" timestamp="2017-02-26T14:47:39Z" lat="53.4895898" lon="17.3961738">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674449" version="1" timestamp="2017-02-26T14:47:40Z" lat="53.4895104" lon="17.3960132">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674450" version="1" timestamp="2017-02-26T14:47:40Z" lat="53.4901399" lon="17.3962306">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674451" version="1" timestamp="2017-02-26T14:47:40Z" lat="53.4906092" lon="17.3967233">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674452" version="1" timestamp="2017-02-26T14:47:40Z" lat="53.4910545" lon="17.3966471">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674453" version="1" timestamp="2017-02-26T14:47:40Z" lat="53.4909943" lon="17.3967854">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674454" version="1" timestamp="2017-02-26T14:47:40Z" lat="53.4911883" lon="17.3975869">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674455" version="1" timestamp="2017-02-26T14:47:40Z" lat="53.49149" lon="17.3981195">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674456" version="1" timestamp="2017-02-26T14:47:40Z" lat="53.4914281" lon="17.3982518">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674457" version="1" timestamp="2017-02-26T14:47:40Z" lat="53.491785" lon="17.3974921">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674458" version="1" timestamp="2017-02-26T14:47:40Z" lat="53.4920246" lon="17.3973469">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674459" version="1" timestamp="2017-02-26T14:47:40Z" lat="53.4926414" lon="17.3975854">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674460" version="1" timestamp="2017-02-26T14:47:40Z" lat="53.4927701" lon="17.3976168">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674461" version="1" timestamp="2017-02-26T14:47:40Z" lat="53.4929429" lon="17.3974978">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1698"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1698"/>
+  </node>
+  <node id="4706674462" version="1" timestamp="2017-02-26T14:47:41Z" lat="53.4907589" lon="17.3985174">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1697"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1697"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1697"/>
+  </node>
+  <node id="4706674463" version="1" timestamp="2017-02-26T14:47:41Z" lat="53.4908533" lon="17.3985146">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1697"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1697"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1697"/>
+  </node>
+  <node id="4706674464" version="1" timestamp="2017-02-26T14:47:41Z" lat="53.4906238" lon="17.3981912">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1697"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1697"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1697"/>
+  </node>
+  <node id="4706674465" version="1" timestamp="2017-02-26T14:47:41Z" lat="53.4929814" lon="17.3941066">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1696"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1696"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1696"/>
+  </node>
+  <node id="4706674481" version="1" timestamp="2017-02-26T14:47:42Z" lat="53.5068812" lon="17.4020896">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674482" version="1" timestamp="2017-02-26T14:47:42Z" lat="53.5071348" lon="17.4022804">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674483" version="1" timestamp="2017-02-26T14:47:42Z" lat="53.5071997" lon="17.4023669">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674484" version="1" timestamp="2017-02-26T14:47:42Z" lat="53.5072659" lon="17.4025001">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674485" version="1" timestamp="2017-02-26T14:47:42Z" lat="53.5073298" lon="17.4025603">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674486" version="1" timestamp="2017-02-26T14:47:42Z" lat="53.5073701" lon="17.4025879">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674487" version="1" timestamp="2017-02-26T14:47:42Z" lat="53.5073888" lon="17.4025644">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674488" version="1" timestamp="2017-02-26T14:47:43Z" lat="53.5074429" lon="17.4026091">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674882" version="1" timestamp="2017-02-26T14:48:11Z" lat="53.5789179" lon="17.4351556">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.862"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.862"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.862"/>
+  </node>
+  <node id="4706674883" version="1" timestamp="2017-02-26T14:48:11Z" lat="53.6014221" lon="17.4882866">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706674884" version="1" timestamp="2017-02-26T14:48:11Z" lat="53.6013348" lon="17.4883346">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706674885" version="1" timestamp="2017-02-26T14:48:11Z" lat="53.6012306" lon="17.4883637">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706674886" version="1" timestamp="2017-02-26T14:48:12Z" lat="53.6010499" lon="17.4884278">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706674887" version="1" timestamp="2017-02-26T14:48:12Z" lat="53.6009655" lon="17.4884584">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706674888" version="1" timestamp="2017-02-26T14:48:12Z" lat="53.6008537" lon="17.4885166">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706674989" version="1" timestamp="2017-02-26T14:47:43Z" lat="53.5075123" lon="17.4026551">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674990" version="1" timestamp="2017-02-26T14:47:43Z" lat="53.5075513" lon="17.4027011">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674991" version="1" timestamp="2017-02-26T14:47:43Z" lat="53.5076544" lon="17.4027426">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674992" version="1" timestamp="2017-02-26T14:47:43Z" lat="53.5077229" lon="17.4028351">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674993" version="1" timestamp="2017-02-26T14:47:43Z" lat="53.5077833" lon="17.4029318">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674994" version="1" timestamp="2017-02-26T14:47:43Z" lat="53.5081519" lon="17.4035936">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674995" version="1" timestamp="2017-02-26T14:47:43Z" lat="53.5081699" lon="17.4037345">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674996" version="1" timestamp="2017-02-26T14:47:43Z" lat="53.5082052" lon="17.403893">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674997" version="1" timestamp="2017-02-26T14:47:43Z" lat="53.5082249" lon="17.4040324">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1685"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1685"/>
+  </node>
+  <node id="4706674998" version="1" timestamp="2017-02-26T14:47:43Z" lat="53.5082619" lon="17.4044487">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1684"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1684"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1684"/>
+  </node>
+  <node id="4706674999" version="1" timestamp="2017-02-26T14:47:43Z" lat="53.5082367" lon="17.404184">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1684"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1684"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1684"/>
+  </node>
+  <node id="4706675000" version="1" timestamp="2017-02-26T14:47:43Z" lat="53.505397" lon="17.4071664">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1683"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1683"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1683"/>
+  </node>
+  <node id="4706675001" version="1" timestamp="2017-02-26T14:47:44Z" lat="53.5051426" lon="17.4079311">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1683"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1683"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1683"/>
+  </node>
+  <node id="4706675002" version="1" timestamp="2017-02-26T14:47:44Z" lat="53.5050749" lon="17.408031">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413023.1683"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413023.1683"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413023.1683"/>
+  </node>
+  <node id="4706675489" version="1" timestamp="2017-02-26T14:48:12Z" lat="53.6005798" lon="17.4886133">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675490" version="1" timestamp="2017-02-26T14:48:12Z" lat="53.6005019" lon="17.4886387">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675491" version="1" timestamp="2017-02-26T14:48:12Z" lat="53.6004344" lon="17.4886721">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675492" version="1" timestamp="2017-02-26T14:48:12Z" lat="53.6003259" lon="17.4887141">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675493" version="1" timestamp="2017-02-26T14:48:12Z" lat="53.6001999" lon="17.4887568">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675494" version="1" timestamp="2017-02-26T14:48:12Z" lat="53.6001261" lon="17.4887905">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675495" version="1" timestamp="2017-02-26T14:48:12Z" lat="53.6000683" lon="17.4888241">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675496" version="1" timestamp="2017-02-26T14:48:12Z" lat="53.6000133" lon="17.48885">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675497" version="1" timestamp="2017-02-26T14:48:12Z" lat="53.5999212" lon="17.4888596">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675498" version="1" timestamp="2017-02-26T14:48:12Z" lat="53.5998048" lon="17.4889152">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675499" version="1" timestamp="2017-02-26T14:48:13Z" lat="53.5997529" lon="17.488914">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675500" version="1" timestamp="2017-02-26T14:48:13Z" lat="53.5996534" lon="17.488989">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675501" version="1" timestamp="2017-02-26T14:48:13Z" lat="53.5995204" lon="17.4890249">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675502" version="1" timestamp="2017-02-26T14:48:13Z" lat="53.5994332" lon="17.4890492">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675503" version="1" timestamp="2017-02-26T14:48:13Z" lat="53.5993706" lon="17.4890706">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675504" version="1" timestamp="2017-02-26T14:48:13Z" lat="53.5991605" lon="17.4891489">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675505" version="1" timestamp="2017-02-26T14:48:13Z" lat="53.5990177" lon="17.4891874">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675506" version="1" timestamp="2017-02-26T14:48:13Z" lat="53.5986975" lon="17.4893018">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675507" version="1" timestamp="2017-02-26T14:48:13Z" lat="53.5985571" lon="17.489388">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675508" version="1" timestamp="2017-02-26T14:48:13Z" lat="53.5984324" lon="17.4894433">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675509" version="1" timestamp="2017-02-26T14:48:13Z" lat="53.5983185" lon="17.4894861">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675510" version="1" timestamp="2017-02-26T14:48:13Z" lat="53.5970881" lon="17.489935">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675511" version="1" timestamp="2017-02-26T14:48:13Z" lat="53.5964498" lon="17.4901886">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675512" version="1" timestamp="2017-02-26T14:48:14Z" lat="53.5963639" lon="17.4902323">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675513" version="1" timestamp="2017-02-26T14:48:14Z" lat="53.596279" lon="17.4902385">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675636" version="1" timestamp="2017-02-26T14:48:24Z" lat="53.5963976" lon="17.4900757">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675637" version="1" timestamp="2017-02-26T14:48:24Z" lat="53.5967679" lon="17.4899352">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675638" version="1" timestamp="2017-02-26T14:48:24Z" lat="53.5968415" lon="17.4899058">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675639" version="1" timestamp="2017-02-26T14:48:24Z" lat="53.5969074" lon="17.4898769">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675640" version="1" timestamp="2017-02-26T14:48:24Z" lat="53.5976126" lon="17.4896523">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675641" version="1" timestamp="2017-02-26T14:48:24Z" lat="53.5978663" lon="17.4895499">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675642" version="1" timestamp="2017-02-26T14:48:24Z" lat="53.5979281" lon="17.4895354">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675643" version="1" timestamp="2017-02-26T14:48:25Z" lat="53.598111" lon="17.4894327">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675644" version="1" timestamp="2017-02-26T14:48:25Z" lat="53.5981981" lon="17.4894003">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675645" version="1" timestamp="2017-02-26T14:48:25Z" lat="53.5982936" lon="17.4893588">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675646" version="1" timestamp="2017-02-26T14:48:25Z" lat="53.5983574" lon="17.4893268">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675647" version="1" timestamp="2017-02-26T14:48:25Z" lat="53.5985662" lon="17.4892514">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675648" version="1" timestamp="2017-02-26T14:48:25Z" lat="53.5986385" lon="17.489212">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675649" version="1" timestamp="2017-02-26T14:48:25Z" lat="53.5987461" lon="17.4891708">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675650" version="1" timestamp="2017-02-26T14:48:25Z" lat="53.599019" lon="17.4890796">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675651" version="1" timestamp="2017-02-26T14:48:25Z" lat="53.5990733" lon="17.4890497">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675652" version="1" timestamp="2017-02-26T14:48:25Z" lat="53.5991271" lon="17.4890369">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675653" version="1" timestamp="2017-02-26T14:48:25Z" lat="53.59956" lon="17.4888994">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675654" version="1" timestamp="2017-02-26T14:48:25Z" lat="53.5998079" lon="17.4887902">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675655" version="1" timestamp="2017-02-26T14:48:25Z" lat="53.5999797" lon="17.4887139">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675656" version="1" timestamp="2017-02-26T14:48:26Z" lat="53.6000383" lon="17.488697">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675657" version="1" timestamp="2017-02-26T14:48:26Z" lat="53.6000929" lon="17.4886692">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675658" version="1" timestamp="2017-02-26T14:48:26Z" lat="53.6001612" lon="17.4886374">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675659" version="1" timestamp="2017-02-26T14:48:26Z" lat="53.6002152" lon="17.4886146">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675660" version="1" timestamp="2017-02-26T14:48:26Z" lat="53.6003136" lon="17.4885836">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675661" version="1" timestamp="2017-02-26T14:48:26Z" lat="53.6003734" lon="17.4885797">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675662" version="1" timestamp="2017-02-26T14:48:26Z" lat="53.6004979" lon="17.4885361">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675663" version="1" timestamp="2017-02-26T14:48:26Z" lat="53.6005782" lon="17.4884934">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675664" version="1" timestamp="2017-02-26T14:48:26Z" lat="53.6006384" lon="17.4884549">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675665" version="1" timestamp="2017-02-26T14:48:26Z" lat="53.6007326" lon="17.488437">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675666" version="1" timestamp="2017-02-26T14:48:26Z" lat="53.6008008" lon="17.4884132">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675667" version="1" timestamp="2017-02-26T14:48:26Z" lat="53.6010278" lon="17.4882972">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675668" version="1" timestamp="2017-02-26T14:48:26Z" lat="53.6010831" lon="17.4882896">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706675669" version="1" timestamp="2017-02-26T14:48:27Z" lat="53.6012254" lon="17.4882363">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0413013.860"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0413013.860"/>
+  </node>
+  <node id="4706682586" version="1" timestamp="2017-02-26T14:51:46Z" lat="53.5887551" lon="18.9283947">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.6126"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.6126"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.6126"/>
+  </node>
+  <node id="4706682587" version="1" timestamp="2017-02-26T14:51:46Z" lat="53.5861441" lon="18.9745154">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="rock"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.6125"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.6125"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.6125"/>
+  </node>
+  <node id="4706682591" version="1" timestamp="2017-02-26T14:51:46Z" lat="53.5857518" lon="18.9956391">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1613"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1613"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1613"/>
+  </node>
+  <node id="4706682592" version="1" timestamp="2017-02-26T14:51:46Z" lat="53.5857628" lon="18.9955856">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1613"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1613"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1613"/>
+  </node>
+  <node id="4706682593" version="1" timestamp="2017-02-26T14:51:46Z" lat="53.5870178" lon="19.0000367">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1612"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1612"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1612"/>
+  </node>
+  <node id="4706682594" version="1" timestamp="2017-02-26T14:51:46Z" lat="53.5867438" lon="18.9996402">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1612"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1612"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1612"/>
+  </node>
+  <node id="4706682595" version="1" timestamp="2017-02-26T14:51:46Z" lat="53.5867513" lon="18.9995044">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1612"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1612"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1612"/>
+  </node>
+  <node id="4706682596" version="1" timestamp="2017-02-26T14:51:47Z" lat="53.5740411" lon="18.9153362">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1611"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1611"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1611"/>
+  </node>
+  <node id="4706682597" version="1" timestamp="2017-02-26T14:51:47Z" lat="53.574084" lon="18.9149813">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1611"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1611"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1611"/>
+  </node>
+  <node id="4706682598" version="1" timestamp="2017-02-26T14:51:47Z" lat="53.5735086" lon="18.919169">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1610"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1610"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1610"/>
+  </node>
+  <node id="4706682819" version="1" timestamp="2017-02-26T14:51:57Z" lat="53.5926289" lon="18.8584334">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1605"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1605"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1605"/>
+  </node>
+  <node id="4706683230" version="1" timestamp="2017-02-26T14:52:15Z" lat="53.5989022" lon="18.8566922">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1603"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1603"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1603"/>
+  </node>
+  <node id="4706683232" version="1" timestamp="2017-02-26T14:52:15Z" lat="53.5889868" lon="18.8692576">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1601"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1601"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1601"/>
+  </node>
+  <node id="4706683234" version="1" timestamp="2017-02-26T14:52:16Z" lat="53.5741187" lon="18.9169902">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1599"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1599"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1599"/>
+  </node>
+  <node id="4706683242" version="1" timestamp="2017-02-26T14:52:16Z" lat="53.5859914" lon="18.99793">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683243" version="1" timestamp="2017-02-26T14:52:16Z" lat="53.5858728" lon="18.9981607">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683244" version="1" timestamp="2017-02-26T14:52:16Z" lat="53.5861738" lon="18.998487">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683245" version="1" timestamp="2017-02-26T14:52:16Z" lat="53.5861229" lon="18.9982071">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683246" version="1" timestamp="2017-02-26T14:52:17Z" lat="53.5860607" lon="18.9985031">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683247" version="1" timestamp="2017-02-26T14:52:17Z" lat="53.5861411" lon="18.9985758">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683248" version="1" timestamp="2017-02-26T14:52:17Z" lat="53.5861245" lon="18.9985926">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683249" version="1" timestamp="2017-02-26T14:52:17Z" lat="53.5862015" lon="18.9987753">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683250" version="1" timestamp="2017-02-26T14:52:17Z" lat="53.5860961" lon="18.999267">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683251" version="1" timestamp="2017-02-26T14:52:17Z" lat="53.5860859" lon="18.9988629">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683252" version="1" timestamp="2017-02-26T14:52:17Z" lat="53.5860262" lon="18.9986745">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683253" version="1" timestamp="2017-02-26T14:52:17Z" lat="53.5860102" lon="18.9990651">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683254" version="1" timestamp="2017-02-26T14:52:17Z" lat="53.5860769" lon="18.998802">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683255" version="1" timestamp="2017-02-26T14:52:17Z" lat="53.5863065" lon="18.9990329">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683256" version="1" timestamp="2017-02-26T14:52:17Z" lat="53.5860376" lon="18.9989376">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683257" version="1" timestamp="2017-02-26T14:52:17Z" lat="53.5862833" lon="18.9991481">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683258" version="1" timestamp="2017-02-26T14:52:17Z" lat="53.5861167" lon="18.9992381">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683259" version="1" timestamp="2017-02-26T14:52:18Z" lat="53.5861243" lon="18.999197">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683260" version="1" timestamp="2017-02-26T14:52:18Z" lat="53.5861358" lon="18.9992183">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683261" version="1" timestamp="2017-02-26T14:52:18Z" lat="53.5861371" lon="18.9991837">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683262" version="1" timestamp="2017-02-26T14:52:18Z" lat="53.5861887" lon="18.9994098">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683263" version="1" timestamp="2017-02-26T14:52:18Z" lat="53.5861705" lon="18.9990769">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683264" version="1" timestamp="2017-02-26T14:52:18Z" lat="53.5861959" lon="18.9989815">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683265" version="1" timestamp="2017-02-26T14:52:18Z" lat="53.5863409" lon="18.9990873">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683266" version="1" timestamp="2017-02-26T14:52:18Z" lat="53.5863507" lon="18.9988517">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683267" version="1" timestamp="2017-02-26T14:52:18Z" lat="53.5862695" lon="18.9987537">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683268" version="1" timestamp="2017-02-26T14:52:18Z" lat="53.5862107" lon="18.9987006">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683269" version="1" timestamp="2017-02-26T14:52:18Z" lat="53.5862903" lon="18.9983121">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683270" version="1" timestamp="2017-02-26T14:52:18Z" lat="53.58585" lon="18.9975418">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683271" version="1" timestamp="2017-02-26T14:52:19Z" lat="53.5855596" lon="18.997325">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683272" version="1" timestamp="2017-02-26T14:52:19Z" lat="53.5854719" lon="18.9972225">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683273" version="1" timestamp="2017-02-26T14:52:19Z" lat="53.5857342" lon="18.9977178">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1593"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1593"/>
+  </node>
+  <node id="4706683275" version="1" timestamp="2017-02-26T14:52:19Z" lat="53.573085" lon="18.9196882">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706683276" version="1" timestamp="2017-02-26T14:52:19Z" lat="53.573342" lon="18.9186588">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706683277" version="1" timestamp="2017-02-26T14:52:19Z" lat="53.5734482" lon="18.918746">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706683278" version="1" timestamp="2017-02-26T14:52:19Z" lat="53.5731249" lon="18.9191306">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706683279" version="1" timestamp="2017-02-26T14:52:19Z" lat="53.5732543" lon="18.9188945">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706683280" version="1" timestamp="2017-02-26T14:52:19Z" lat="53.5733493" lon="18.9189933">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686130" version="1" timestamp="2017-02-26T14:56:08Z" lat="53.573308" lon="18.9190029">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686131" version="1" timestamp="2017-02-26T14:56:08Z" lat="53.5733186" lon="18.9188408">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686132" version="1" timestamp="2017-02-26T14:56:08Z" lat="53.5733639" lon="18.918834">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686133" version="1" timestamp="2017-02-26T14:56:08Z" lat="53.5733577" lon="18.9185866">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686134" version="1" timestamp="2017-02-26T14:56:08Z" lat="53.5732254" lon="18.9186708">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686135" version="1" timestamp="2017-02-26T14:56:08Z" lat="53.5732719" lon="18.9184304">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686136" version="1" timestamp="2017-02-26T14:56:08Z" lat="53.5734147" lon="18.9184356">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686137" version="1" timestamp="2017-02-26T14:56:08Z" lat="53.5737995" lon="18.9185516">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686138" version="1" timestamp="2017-02-26T14:56:08Z" lat="53.5737599" lon="18.9186863">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686139" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.5737373" lon="18.918786">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686140" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.573562" lon="18.9197887">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686141" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.5736357" lon="18.9196199">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686142" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.5737338" lon="18.9195702">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686143" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.5732898" lon="18.9196966">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686144" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.5732096" lon="18.9199322">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686145" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.5732306" lon="18.9199491">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686146" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.5733753" lon="18.9199517">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686147" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.5732972" lon="18.9200714">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686148" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.5733813" lon="18.9201721">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686149" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.5731206" lon="18.9195187">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686150" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.5734398" lon="18.9194265">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686151" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.5735071" lon="18.9195388">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686152" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.5737167" lon="18.9191859">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1590"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1590"/>
+  </node>
+  <node id="4706686153" version="1" timestamp="2017-02-26T14:56:09Z" lat="53.5737843" lon="18.9219291">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1589"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1589"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1589"/>
+  </node>
+  <node id="4706686154" version="1" timestamp="2017-02-26T14:56:10Z" lat="53.5739503" lon="18.9217323">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1589"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1589"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1589"/>
+  </node>
+  <node id="4706686155" version="1" timestamp="2017-02-26T14:56:10Z" lat="53.5742631" lon="18.922347">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1589"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1589"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1589"/>
+  </node>
+  <node id="4706686156" version="1" timestamp="2017-02-26T14:56:10Z" lat="53.5744852" lon="18.922707">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1589"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1589"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1589"/>
+  </node>
+  <node id="4706686157" version="1" timestamp="2017-02-26T14:56:10Z" lat="53.5735597" lon="18.9168544">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1588"/>
+  </node>
+  <node id="4706686158" version="1" timestamp="2017-02-26T14:56:10Z" lat="53.5736184" lon="18.9165395">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1588"/>
+  </node>
+  <node id="4706686159" version="1" timestamp="2017-02-26T14:56:10Z" lat="53.5735487" lon="18.9169907">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1588"/>
+  </node>
+  <node id="4706686160" version="1" timestamp="2017-02-26T14:56:10Z" lat="53.5734749" lon="18.9179584">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1588"/>
+  </node>
+  <node id="4706686161" version="1" timestamp="2017-02-26T14:56:10Z" lat="53.5735906" lon="18.9175573">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1588"/>
+  </node>
+  <node id="4706686162" version="1" timestamp="2017-02-26T14:56:10Z" lat="53.5734822" lon="18.9172955">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1588"/>
+  </node>
+  <node id="4706686163" version="1" timestamp="2017-02-26T14:56:10Z" lat="53.5736421" lon="18.9172224">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1588"/>
+  </node>
+  <node id="4706686164" version="1" timestamp="2017-02-26T14:56:10Z" lat="53.5737363" lon="18.917392">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1588"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1588"/>
+  </node>
+  <node id="4706686165" version="1" timestamp="2017-02-26T14:56:10Z" lat="53.5929514" lon="18.859689">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="other"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1587"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1587"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1587"/>
+  </node>
+  <node id="4706686166" version="1" timestamp="2017-02-26T14:56:10Z" lat="53.592761" lon="18.8598565">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="other"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1587"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1587"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1587"/>
+  </node>
+  <node id="4706686167" version="1" timestamp="2017-02-26T14:56:11Z" lat="53.5977779" lon="18.8508319">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1586"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1586"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1586"/>
+  </node>
+  <node id="4706686168" version="1" timestamp="2017-02-26T14:56:11Z" lat="53.5977409" lon="18.8508507">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1586"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1586"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1586"/>
+  </node>
+  <node id="4706686169" version="1" timestamp="2017-02-26T14:56:11Z" lat="53.6016355" lon="18.8584816">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686170" version="1" timestamp="2017-02-26T14:56:11Z" lat="53.6015664" lon="18.8585632">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686171" version="1" timestamp="2017-02-26T14:56:11Z" lat="53.6014511" lon="18.8584416">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686172" version="1" timestamp="2017-02-26T14:56:11Z" lat="53.601484" lon="18.8583242">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686173" version="1" timestamp="2017-02-26T14:56:11Z" lat="53.601505" lon="18.8579454">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686174" version="1" timestamp="2017-02-26T14:56:11Z" lat="53.6017122" lon="18.8584389">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686175" version="1" timestamp="2017-02-26T14:56:11Z" lat="53.601786" lon="18.8584612">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686176" version="1" timestamp="2017-02-26T14:56:11Z" lat="53.6018012" lon="18.8583261">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686177" version="1" timestamp="2017-02-26T14:56:11Z" lat="53.6017537" lon="18.8582853">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686178" version="1" timestamp="2017-02-26T14:56:11Z" lat="53.6018917" lon="18.8589837">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686179" version="1" timestamp="2017-02-26T14:56:11Z" lat="53.6018494" lon="18.8587241">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686180" version="1" timestamp="2017-02-26T14:56:11Z" lat="53.601828" lon="18.8580987">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686181" version="1" timestamp="2017-02-26T14:56:12Z" lat="53.6017953" lon="18.8581541">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686182" version="1" timestamp="2017-02-26T14:56:12Z" lat="53.6015451" lon="18.8581956">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686183" version="1" timestamp="2017-02-26T14:56:12Z" lat="53.6016053" lon="18.8581448">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686184" version="1" timestamp="2017-02-26T14:56:12Z" lat="53.6017779" lon="18.8577749">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686185" version="1" timestamp="2017-02-26T14:56:12Z" lat="53.6017087" lon="18.8577368">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686186" version="1" timestamp="2017-02-26T14:56:12Z" lat="53.6017421" lon="18.8579989">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686187" version="1" timestamp="2017-02-26T14:56:12Z" lat="53.6016753" lon="18.8580844">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706686188" version="1" timestamp="2017-02-26T14:56:12Z" lat="53.6017178" lon="18.8581734">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706690589" version="1" timestamp="2017-02-26T14:56:12Z" lat="53.6019323" lon="18.8585464">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706690590" version="1" timestamp="2017-02-26T14:56:12Z" lat="53.6019143" lon="18.8584346">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706690591" version="1" timestamp="2017-02-26T14:56:12Z" lat="53.6018747" lon="18.8583307">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706690592" version="1" timestamp="2017-02-26T14:56:12Z" lat="53.6020218" lon="18.8581909">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706690593" version="1" timestamp="2017-02-26T14:56:12Z" lat="53.6019815" lon="18.8580554">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1585"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1585"/>
+  </node>
+  <node id="4706690594" version="1" timestamp="2017-02-26T14:56:12Z" lat="53.5819524" lon="18.9791275">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1584"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1584"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1584"/>
+  </node>
+  <node id="4706690595" version="1" timestamp="2017-02-26T14:56:13Z" lat="53.581972" lon="18.9419105">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1583"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1583"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1583"/>
+  </node>
+  <node id="4706690596" version="1" timestamp="2017-02-26T14:56:13Z" lat="53.5820132" lon="18.9415385">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1582"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1582"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1582"/>
+  </node>
+  <node id="4706690597" version="1" timestamp="2017-02-26T14:56:13Z" lat="53.5846921" lon="18.9396218">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1581"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1581"/>
+    <tag k="start_date" v="2002-07-06"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1581"/>
+  </node>
+  <node id="4706690598" version="1" timestamp="2017-02-26T14:56:13Z" lat="53.5759783" lon="18.9253952">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1580"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1580"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1580"/>
+  </node>
+  <node id="4706690599" version="1" timestamp="2017-02-26T14:56:13Z" lat="53.5852493" lon="18.9394387">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1579"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1579"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1579"/>
+  </node>
+  <node id="4706690600" version="1" timestamp="2017-02-26T14:56:13Z" lat="53.5856366" lon="18.9393612">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1578"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1578"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1578"/>
+  </node>
+  <node id="4706690601" version="1" timestamp="2017-02-26T14:56:13Z" lat="53.5856716" lon="18.938937">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1577"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1577"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1577"/>
+  </node>
+  <node id="4706690602" version="1" timestamp="2017-02-26T14:56:13Z" lat="53.5862096" lon="18.9390325">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1576"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1576"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1576"/>
+  </node>
+  <node id="4706690603" version="1" timestamp="2017-02-26T14:56:13Z" lat="53.5862525" lon="18.9389668">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1575"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1575"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1575"/>
+  </node>
+  <node id="4706690604" version="1" timestamp="2017-02-26T14:56:13Z" lat="53.5862432" lon="18.9386341">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1574"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1574"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1574"/>
+  </node>
+  <node id="4706690605" version="1" timestamp="2017-02-26T14:56:13Z" lat="53.5866983" lon="18.938557">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1573"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1573"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1573"/>
+  </node>
+  <node id="4706690606" version="1" timestamp="2017-02-26T14:56:13Z" lat="53.5871338" lon="18.9384648">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1572"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1572"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1572"/>
+  </node>
+  <node id="4706690607" version="1" timestamp="2017-02-26T14:56:14Z" lat="53.5718203" lon="18.9033323">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1571"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1571"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1571"/>
+  </node>
+  <node id="4706690608" version="1" timestamp="2017-02-26T14:56:14Z" lat="53.5714181" lon="18.9024521">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1570"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1570"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1570"/>
+  </node>
+  <node id="4706690609" version="1" timestamp="2017-02-26T14:56:14Z" lat="53.5716416" lon="18.902955">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1569"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1569"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1569"/>
+  </node>
+  <node id="4706690610" version="1" timestamp="2017-02-26T14:56:14Z" lat="53.5717302" lon="18.9034027">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1568"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1568"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1568"/>
+  </node>
+  <node id="4706690611" version="1" timestamp="2017-02-26T14:56:14Z" lat="53.5717606" lon="18.9035754">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1567"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1567"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1567"/>
+  </node>
+  <node id="4706690612" version="1" timestamp="2017-02-26T14:56:14Z" lat="53.5718531" lon="18.9030116">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1566"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1566"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1566"/>
+  </node>
+  <node id="4706690613" version="1" timestamp="2017-02-26T14:56:14Z" lat="53.5807065" lon="18.9463263">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1565"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1565"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1565"/>
+  </node>
+  <node id="4706690614" version="1" timestamp="2017-02-26T14:56:14Z" lat="53.5809647" lon="18.9454867">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1564"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1564"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1564"/>
+  </node>
+  <node id="4706690615" version="1" timestamp="2017-02-26T14:56:14Z" lat="53.5891378" lon="18.9373616">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1563"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1563"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1563"/>
+  </node>
+  <node id="4706690616" version="1" timestamp="2017-02-26T14:56:14Z" lat="53.5891644" lon="18.9368701">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1562"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1562"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1562"/>
+  </node>
+  <node id="4706690633" version="1" timestamp="2017-02-26T14:56:16Z" lat="53.5841606" lon="19.0127715">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1547"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1547"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1547"/>
+  </node>
+  <node id="4706690634" version="1" timestamp="2017-02-26T14:56:16Z" lat="53.5845938" lon="19.0126388">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1546"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1546"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1546"/>
+  </node>
+  <node id="4706690635" version="1" timestamp="2017-02-26T14:56:16Z" lat="53.5844548" lon="19.0126229">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1545"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1545"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1545"/>
+  </node>
+  <node id="4706690636" version="1" timestamp="2017-02-26T14:56:17Z" lat="53.5846028" lon="19.0121997">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1544"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1544"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1544"/>
+  </node>
+  <node id="4706690637" version="1" timestamp="2017-02-26T14:56:17Z" lat="53.5843525" lon="19.0120313">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1543"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1543"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1543"/>
+  </node>
+  <node id="4706690638" version="1" timestamp="2017-02-26T14:56:17Z" lat="53.5839541" lon="19.0031465">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1542"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1542"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1542"/>
+  </node>
+  <node id="4706690639" version="1" timestamp="2017-02-26T14:56:17Z" lat="53.5844871" lon="19.0130633">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1541"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1541"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1541"/>
+  </node>
+  <node id="4706690640" version="1" timestamp="2017-02-26T14:56:17Z" lat="53.583861" lon="19.0155977">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1540"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1540"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1540"/>
+  </node>
+  <node id="4706690641" version="1" timestamp="2017-02-26T14:56:17Z" lat="53.5839702" lon="19.0143108">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1539"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1539"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1539"/>
+  </node>
+  <node id="4706690642" version="1" timestamp="2017-02-26T14:56:17Z" lat="53.5839857" lon="19.0141082">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1538"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1538"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1538"/>
+  </node>
+  <node id="4706690643" version="1" timestamp="2017-02-26T14:56:17Z" lat="53.5911874" lon="18.9251307">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1537"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1537"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1537"/>
+  </node>
+  <node id="4706690644" version="1" timestamp="2017-02-26T14:56:17Z" lat="53.5794413" lon="18.9195561">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1536"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1536"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1536"/>
+  </node>
+  <node id="4706690645" version="1" timestamp="2017-02-26T14:56:17Z" lat="53.5781175" lon="18.9198914">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1535"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1535"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1535"/>
+  </node>
+  <node id="4706690646" version="1" timestamp="2017-02-26T14:56:17Z" lat="53.5770655" lon="18.920441">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1534"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1534"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1534"/>
+  </node>
+  <node id="4706690647" version="1" timestamp="2017-02-26T14:56:17Z" lat="53.577453" lon="18.9191948">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1533"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1533"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1533"/>
+  </node>
+  <node id="4706690648" version="1" timestamp="2017-02-26T14:56:17Z" lat="53.5776554" lon="18.9202508">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1532"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1532"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1532"/>
+  </node>
+  <node id="4706690649" version="1" timestamp="2017-02-26T14:56:18Z" lat="53.578487" lon="18.9203421">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406052.1531"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406052.1531"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406052.1531"/>
+  </node>
+  <node id="4706690899" version="1" timestamp="2017-02-26T14:56:27Z" lat="53.5874665" lon="19.0674516">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406033.6121"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406033.6121"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406033.6121"/>
+  </node>
+  <node id="4706691094" version="1" timestamp="2017-02-26T14:56:35Z" lat="53.5941783" lon="18.8182035">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref:CRFOP" v="PL.ZIPOP.1393.PP.0406012.712"/>
+    <tag k="ref:INSPIRE" v="PL.ZIPOP.1393.PP.0406012.712"/>
+    <tag k="website" v="http://crfop.gdos.gov.pl/CRFOP/widok/viewfop.jsf?fop=PL.ZIPOP.1393.PP.0406012.712"/>
+  </node>
+  <node id="4895236984" version="3" timestamp="2017-06-05T19:20:21Z" lat="54.3676085" lon="18.6314553">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="is_in" v="Gdańsk"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref" v="451"/>
+    <tag k="species" v="Tilia tomentosa"/>
+    <tag k="species:pl" v="Lipa srebrzysta"/>
+  </node>
+  <node id="5043808114" version="1" timestamp="2017-08-18T22:50:44Z" lat="54.5711312" lon="18.3926638">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Dąb szypułkowy"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5156659105" version="1" timestamp="2017-10-09T09:02:30Z" lat="54.1799195" lon="18.6466775">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="description" v="Dąb"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5484071603" version="1" timestamp="2018-03-17T07:50:44Z" lat="54.4829712" lon="18.5496486">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Kasztanowiec zwyczajny"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5509104760" version="1" timestamp="2018-03-27T18:34:43Z" lat="54.5029167" lon="18.4227705">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="4 lipy drobnolistne"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5514495316" version="1" timestamp="2018-03-29T15:36:20Z" lat="54.4881975" lon="18.5462249">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Dąb szypułkowy"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5514495317" version="3" timestamp="2019-09-28T15:42:02Z" lat="54.5115179" lon="18.5467991">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Lipa drobnolistna"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5514495318" version="3" timestamp="2019-09-28T15:42:02Z" lat="54.5114733" lon="18.5468927">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Klon jawor"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5514495319" version="3" timestamp="2019-09-28T15:42:02Z" lat="54.5117325" lon="18.5460309">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Lipa drobnolistna"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5514671171" version="1" timestamp="2018-03-29T17:08:50Z" lat="54.4606287" lon="18.5392421">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Buk zwyczajny"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5514671172" version="1" timestamp="2018-03-29T17:08:50Z" lat="54.461387" lon="18.5444389">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Buk zwyczajny"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5514671173" version="1" timestamp="2018-03-29T17:08:50Z" lat="54.5117257" lon="18.3849437">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Tulipanowiec amerykański"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5529464095" version="3" timestamp="2018-11-06T06:03:09Z" lat="53.7665245" lon="18.1154585">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="description" v="Dąb - Pomnik Przyrody"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5569002797" version="1" timestamp="2018-04-21T12:42:09Z" lat="54.6056394" lon="18.4969363"/>
+  <node id="5569002798" version="1" timestamp="2018-04-21T12:42:09Z" lat="54.6070383" lon="18.4974937"/>
+  <node id="5569002799" version="1" timestamp="2018-04-21T12:42:09Z" lat="54.6078125" lon="18.4977035"/>
+  <node id="5569002800" version="1" timestamp="2018-04-21T12:42:09Z" lat="54.6088677" lon="18.4980212"/>
+  <node id="5569002801" version="1" timestamp="2018-04-21T12:42:09Z" lat="54.6056151" lon="18.4971341"/>
+  <node id="5569002802" version="1" timestamp="2018-04-21T12:42:09Z" lat="54.6071217" lon="18.4977215"/>
+  <node id="5569002803" version="1" timestamp="2018-04-21T12:42:09Z" lat="54.6088573" lon="18.498225"/>
+  <node id="5569002804" version="1" timestamp="2018-04-21T12:42:09Z" lat="54.606538" lon="18.5074622">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Dąb szypułkowy &quot;Bernard&quot;"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5569002805" version="1" timestamp="2018-04-21T12:42:10Z" lat="54.6087391" lon="18.5122588">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Jesion wyniosły"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5569002807" version="1" timestamp="2018-04-21T12:42:10Z" lat="54.6085955" lon="18.5123728">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="2 lipy drobnolistne"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5569002808" version="1" timestamp="2018-04-21T12:42:10Z" lat="54.604889" lon="18.4877639">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="needleleaved"/>
+    <tag k="name" v="Sosna zwyczajna"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5569002809" version="1" timestamp="2018-04-21T12:42:10Z" lat="54.6322699" lon="18.5023037">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Wierzba biała"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5569002810" version="1" timestamp="2018-04-21T12:42:10Z" lat="54.5963238" lon="18.496423">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Dąb szypułkowy"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5569005436" version="1" timestamp="2018-04-21T12:42:10Z" lat="54.602915" lon="18.4232198">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="4 lipy drobnolistne"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5569005440" version="1" timestamp="2018-04-21T12:42:11Z" lat="54.5987463" lon="18.4441433">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Lipa drobnolistna"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5569180449" version="1" timestamp="2018-04-21T14:09:17Z" lat="54.6013533" lon="18.8055713">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Topola"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="5924925264" version="4" timestamp="2019-05-16T23:39:04Z" lat="54.7771327" lon="18.1640111">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="species" v="Platanus acerifolia"/>
+    <tag k="species:pl" v="Platan klonolistny"/>
+  </node>
+  <node id="6044901861" version="3" timestamp="2019-02-03T10:32:58Z" lat="54.352312" lon="18.6361851">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="is_in" v="Gdańsk"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Pomnik przyrody"/>
+    <tag k="natural" v="tree"/>
+    <tag k="ref" v="413"/>
+    <tag k="species" v="Populus nigra"/>
+    <tag k="species:pl" v="Topola czarna"/>
+  </node>
+  <node id="6345993349" version="1" timestamp="2019-03-18T21:35:35Z" lat="54.4826332" lon="17.6857554">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Dąb szypułkowy"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="6347111757" version="1" timestamp="2019-03-19T11:21:04Z" lat="54.2591444" lon="17.3241477">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Lipa"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="6479434080" version="1" timestamp="2019-05-16T23:39:01Z" lat="54.7769456" lon="18.1640996">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="species" v="Platanus acerifolia"/>
+    <tag k="species:pl" v="Platan klonolistny"/>
+  </node>
+  <node id="6479434081" version="1" timestamp="2019-05-16T23:39:01Z" lat="54.7768134" lon="18.1641052">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="species" v="Platanus acerifolia"/>
+    <tag k="species:pl" v="Platan klonolistny"/>
+  </node>
+  <node id="6479434082" version="1" timestamp="2019-05-16T23:39:01Z" lat="54.7766831" lon="18.1639479">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="species" v="Platanus acerifolia"/>
+    <tag k="species:pl" v="Platan klonolistny"/>
+  </node>
+  <node id="6479434083" version="1" timestamp="2019-05-16T23:39:01Z" lat="54.7773286" lon="18.1628731">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="species" v="Tilia cordata Mill."/>
+    <tag k="species:pl" v="Lipa drobnolistna"/>
+  </node>
+  <node id="6479436188" version="1" timestamp="2019-05-16T23:39:02Z" lat="54.7775966" lon="18.164411">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="species" v="Catalpa speciosa"/>
+    <tag k="species:pl" v="Katalpa"/>
+  </node>
+  <node id="6479436189" version="1" timestamp="2019-05-16T23:39:02Z" lat="54.7779139" lon="18.1650721">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="species" v="Acer pseudoplatanus"/>
+    <tag k="species:pl" v="Klon jawor"/>
+  </node>
+  <node id="6479436192" version="1" timestamp="2019-05-16T23:39:02Z" lat="54.7778415" lon="18.16398">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="species" v="Magnolia"/>
+    <tag k="species:pl" v="Magnolia drzewiasta"/>
+  </node>
+  <node id="6479436193" version="1" timestamp="2019-05-16T23:39:02Z" lat="54.7778343" lon="18.16407">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="species" v="Ginkgo biloba"/>
+    <tag k="species:pl" v="Miłorząb dwuklapowy"/>
+  </node>
+  <node id="6479436231" version="1" timestamp="2019-05-16T23:39:04Z" lat="54.7769695" lon="18.163354">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="needleleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="protected" v="yes"/>
+    <tag k="species" v="Thuja plicata"/>
+    <tag k="species:pl" v="żywotnik olbrzymi"/>
+  </node>
+  <node id="6832934407" version="1" timestamp="2019-09-28T15:42:02Z" lat="54.5100491" lon="18.5256303">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Buk pospolity"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="6832934408" version="1" timestamp="2019-09-28T15:42:02Z" lat="54.5127298" lon="18.5494495">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="needleleaved"/>
+    <tag k="name" v="Sosna czarna"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="6832934409" version="1" timestamp="2019-09-28T15:42:02Z" lat="54.4936086" lon="18.5513507">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Lipa drobnolistna"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="6832934422" version="1" timestamp="2019-09-28T15:42:02Z" lat="54.4675834" lon="18.4817084">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Buk zwyczajny"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="6832934423" version="1" timestamp="2019-09-28T15:42:02Z" lat="54.4602168" lon="18.4928116">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Lipa drobnolistna"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="6832934424" version="1" timestamp="2019-09-28T15:42:02Z" lat="54.4799129" lon="18.5629097">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Topola biała"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="6832934425" version="1" timestamp="2019-09-28T15:42:02Z" lat="54.4816925" lon="18.5416488">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="needleleaved"/>
+    <tag k="name" v="Żywotnik olbrzymi"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="6851459116" version="1" timestamp="2019-10-04T13:24:58Z" lat="54.380639" lon="18.6199641">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+    <tag k="species:wikidata" v="Q156918"/>
+    <tag k="species:wikipedia" v="en:Salix alba"/>
+  </node>
+  <node id="6919782615" version="1" timestamp="2019-10-27T09:47:04Z" lat="54.1806341" lon="16.8238425">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="description" v="Dąb z kapliczką"/>
+    <tag k="leaf_cycle" v="deciduous"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="6933883318" version="1" timestamp="2019-10-31T05:25:41Z" lat="53.9464229" lon="17.2751422">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_cycle" v="evergreen"/>
+    <tag k="leaf_type" v="needleleaved"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="6933883319" version="1" timestamp="2019-10-31T05:25:41Z" lat="53.9463934" lon="17.275276">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_cycle" v="evergreen"/>
+    <tag k="leaf_type" v="needleleaved"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="7026879409" version="1" timestamp="2019-12-02T18:27:35Z" lat="53.737356" lon="18.9348282">
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="natural" v="tree"/>
+  </node>
+  <way id="185253945" version="2" timestamp="2014-08-26T05:33:06Z">
+    <nd ref="1958109552"/>
+    <nd ref="1958109585"/>
+    <tag k="name" v="Aleja Kasztanowców"/>
+    <tag k="natural" v="tree_row"/>
+    <tag k="species" v="Aesculus hippocastanum"/>
+    <tag k="monument" v="yes"/>
+    <tag k="denotation" v="natural_monument"/>
+  </way>
+  <way id="185253946" version="2" timestamp="2014-08-26T05:33:06Z">
+    <nd ref="1958109584"/>
+    <nd ref="1958109555"/>
+    <tag k="name" v="Aleja Kasztanowców"/>
+    <tag k="natural" v="tree_row"/>
+    <tag k="species" v="Aesculus hippocastanum"/>
+    <tag k="monument" v="yes"/>
+    <tag k="denotation" v="natural_monument"/>
+  </way>
+  <way id="290601403" version="1" timestamp="2014-06-30T21:03:06Z">
+    <nd ref="2941124769"/>
+    <nd ref="2941124767"/>
+    <nd ref="2941124765"/>
+    <nd ref="2941124764"/>
+    <nd ref="2941124761"/>
+    <nd ref="2941124759"/>
+    <nd ref="2941124758"/>
+    <nd ref="2941124755"/>
+    <nd ref="2941124754"/>
+    <nd ref="2941124752"/>
+    <nd ref="2941124750"/>
+    <tag k="natural" v="tree_row"/>
+    <tag k="species" v="Castanea Mill."/>
+    <tag k="monument" v="yes"/>
+    <tag k="denotation" v="natural_monument"/>
+  </way>
+  <way id="290601405" version="1" timestamp="2014-06-30T21:03:06Z">
+    <nd ref="2941124768"/>
+    <nd ref="2941124766"/>
+    <nd ref="2941124762"/>
+    <nd ref="2941124760"/>
+    <nd ref="2941124757"/>
+    <nd ref="2941124756"/>
+    <nd ref="2941124753"/>
+    <nd ref="2941124751"/>
+    <nd ref="2941124749"/>
+    <tag k="natural" v="tree_row"/>
+    <tag k="species" v="Castanea Mill."/>
+    <tag k="monument" v="yes"/>
+    <tag k="denotation" v="natural_monument"/>
+  </way>
+  <way id="582250411" version="1" timestamp="2018-04-21T12:42:11Z">
+    <nd ref="5569002797"/>
+    <nd ref="5569002798"/>
+    <nd ref="5569002799"/>
+    <nd ref="5569002800"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Aleja lipowa"/>
+    <tag k="natural" v="tree_row"/>
+  </way>
+  <way id="582250412" version="1" timestamp="2018-04-21T12:42:11Z">
+    <nd ref="5569002801"/>
+    <nd ref="5569002802"/>
+    <nd ref="5569002803"/>
+    <tag k="denotation" v="natural_monument"/>
+    <tag k="leaf_type" v="broadleaved"/>
+    <tag k="name" v="Aleja lipowa"/>
+    <tag k="natural" v="tree_row"/>
+  </way>
+</osm>

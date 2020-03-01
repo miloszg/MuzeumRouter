@@ -58,7 +58,7 @@ public class MuseumListActivity extends AppCompatActivity {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
 
-            InputStream input = this.getResources().openRawResource(R.raw.museums);
+            InputStream input = this.getResources().openRawResource(R.raw.pomorze);
             Document doc = builder.parse(input);
 
             Node osmRoot = doc.getFirstChild();

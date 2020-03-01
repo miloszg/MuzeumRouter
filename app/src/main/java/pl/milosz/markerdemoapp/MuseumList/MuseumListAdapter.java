@@ -31,8 +31,7 @@ public class MuseumListAdapter extends ArrayAdapter<Museum> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         String header1 = getItem(position).getTitle();
         String header2 = getItem(position).getLat() + " " + getItem(position).getLon();
-        int drawable = R.drawable.ic_museum;
-
+        int drawable = R.drawable.ic_flower;
 
         LayoutInflater inflater = LayoutInflater.from(contactContext);
         convertView = inflater.inflate(contactResource,parent, false);

@@ -104,7 +104,7 @@ public class RouteListActivity extends AppCompatActivity {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
 
-            InputStream input = this.getResources().openRawResource(R.raw.museums);
+            InputStream input = this.getResources().openRawResource(R.raw.pomorze);
             Document doc = builder.parse(input);
 
             Node osmRoot = doc.getFirstChild();
@@ -131,7 +131,7 @@ public class RouteListActivity extends AppCompatActivity {
                     String longitude = namedItemLon.getNodeValue();
 
                     Museum museum = new Museum(latitude,longitude,name);
-                    list.clear();
+
                     list.add(museum);
                 }
             }
