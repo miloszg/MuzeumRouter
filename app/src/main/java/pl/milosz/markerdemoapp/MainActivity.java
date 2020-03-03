@@ -11,7 +11,6 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.StrictMode;
 import android.provider.Settings;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,9 +18,24 @@ import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 
-import pl.milosz.markerdemoapp.MuseumList.MuseumListActivity;
+import org.w3c.dom.Document;
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import pl.milosz.markerdemoapp.MarkersList.Marker;
+import pl.milosz.markerdemoapp.MarkersList.MarkerListActivity;
 import pl.milosz.markerdemoapp.Map.MapActivity;
 import pl.milosz.markerdemoapp.RouteList.RouteListActivity;
+
+import static pl.milosz.markerdemoapp.MarkersList.MarkerListActivity.list;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -31,6 +45,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        generateMarkersFromXml();
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -56,10 +72,51 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         markerView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent markerIntent=new Intent(getApplicationContext(), MuseumListActivity.class);
+                Intent markerIntent=new Intent(getApplicationContext(), MarkerListActivity.class);
                 startActivity(markerIntent);
             }
         });
+    }
+
+    public void generateMarkersFromXml() {
+        try {
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+
+            InputStream input = getResources().openRawResource(R.raw.pomorze);
+            Document doc = builder.parse(input);
+
+            Node osmRoot = doc.getFirstChild();
+            NodeList osmXMLNodes = osmRoot.getChildNodes();
+            for (int i = 1; i < osmXMLNodes.getLength(); i++) {
+                Node item = osmXMLNodes.item(i);
+                if (item.getNodeName().equals("node")) {
+                    NamedNodeMap attributes = item.getAttributes();
+                    NodeList tagXMLNodes = item.getChildNodes();
+                    Map<String, String> tags = new HashMap<String, String>();
+                    for (int j = 1; j < tagXMLNodes.getLength(); j++) {
+                        Node tagItem = tagXMLNodes.item(j);
+                        NamedNodeMap tagAttributes = tagItem.getAttributes();
+                        if (tagAttributes != null) {
+                            tags.put(tagAttributes.getNamedItem("k").getNodeValue(), tagAttributes.getNamedItem("v")
+                                    .getNodeValue());
+                        }
+                    }
+                    Node namedItemLat = attributes.getNamedItem("lat");
+                    Node namedItemLon = attributes.getNamedItem("lon");
+
+                    String name = tags.get("name");
+                    String latitude = namedItemLat.getNodeValue();
+                    String longitude = namedItemLon.getNodeValue();
+
+                    Marker marker = new Marker(latitude,longitude,name);
+                    list.add(marker);
+                }
+            }
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     @Override
@@ -79,7 +136,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(mapIntent);
                 break;
             case R.id.nav_marker:
-                Intent markerIntent = new Intent(this, MuseumListActivity.class);
+                Intent markerIntent = new Intent(this, MarkerListActivity.class);
                 startActivity(markerIntent);
                 break;
             case R.id.nav_route:

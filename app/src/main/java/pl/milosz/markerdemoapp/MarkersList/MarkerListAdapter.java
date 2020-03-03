@@ -1,4 +1,4 @@
-package pl.milosz.markerdemoapp.MuseumList;
+package pl.milosz.markerdemoapp.MarkersList;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -16,14 +16,14 @@ import java.util.ArrayList;
 import pl.milosz.markerdemoapp.R;
 
 
-public class MuseumListAdapter extends ArrayAdapter<Museum> {
-    private Context contactContext;
-    private int contactResource;
+public class MarkerListAdapter extends ArrayAdapter<Marker> {
+    private Context routeContext;
+    private int routeResource;
 
-    public MuseumListAdapter(@NonNull Context context, int resource, @NonNull ArrayList<Museum> objects) {
+    public MarkerListAdapter(@NonNull Context context, int resource, @NonNull ArrayList<Marker> objects) {
         super(context, resource, objects);
-        contactContext = context;
-        contactResource=resource;
+        routeContext = context;
+        routeResource=resource;
     }
 
     @NonNull
@@ -33,12 +33,12 @@ public class MuseumListAdapter extends ArrayAdapter<Museum> {
         String header2 = getItem(position).getLat() + " " + getItem(position).getLon();
         int drawable = R.drawable.ic_flower;
 
-        LayoutInflater inflater = LayoutInflater.from(contactContext);
-        convertView = inflater.inflate(contactResource,parent, false);
+        LayoutInflater inflater = LayoutInflater.from(routeContext);
+        convertView = inflater.inflate(routeResource,parent, false);
 
         TextView header1TextView=convertView.findViewById(R.id.header1);
         TextView header2TextView=convertView.findViewById(R.id.header2);
-        ImageView imageView=convertView.findViewById(R.id.contactImageView);
+        ImageView imageView=convertView.findViewById(R.id.imageView);
         header1TextView.setText(header1);
         header2TextView.setText(header2);
         imageView.setImageResource(drawable);

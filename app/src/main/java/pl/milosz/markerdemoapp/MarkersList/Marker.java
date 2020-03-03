@@ -1,11 +1,11 @@
-package pl.milosz.markerdemoapp.MuseumList;
+package pl.milosz.markerdemoapp.MarkersList;
 
-public class Museum {
+public class Marker {
     public String lat;
     public String lon;
     public String title;
 
-    public Museum(String lat, String lon, String title) {
+    public Marker(String lat, String lon, String title) {
         this.lat = lat;
         this.lon = lon;
         this.title = title;

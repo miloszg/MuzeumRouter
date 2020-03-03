@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#056fff"
+    android:background="#058e7c"
     tools:context=".Map.MapActivity"
     android:orientation="horizontal">
         <org.osmdroid.views.MapView

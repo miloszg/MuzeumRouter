@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context=".MainActivity"
-    android:background="#056fff"
+    android:background="#058e7c"
     tools:openDrawer="start">
 
     <LinearLayout
@@ -71,14 +71,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/ic_map_deep_blue" />
+                        android:src="@drawable/ic_map_deep_green" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Mapa"
                         android:textAlignment="center"
-                        android:textColor="#056fff"
+                        android:textColor="#058e7c"
                         android:textSize="14sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -108,14 +108,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/ic_museum" />
+                        android:src="@drawable/ic_flower" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Lista muzeum"
+                        android:text="Lista pomników przyrody"
                         android:textAlignment="center"
-                        android:textColor="#056fff"
+                        android:textColor="#058e7c"
                         android:textSize="14sp"
                         android:textStyle="bold" />
                 </LinearLayout>

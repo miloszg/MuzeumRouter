@@ -17,28 +17,28 @@ import pl.milosz.markerdemoapp.R;
 
 
 public class RouteListAdapter extends ArrayAdapter<RouteApp> {
-    private Context contactContext;
-    private int contactResource;
+    private Context routeContext;
+    private int routeResource;
 
     public RouteListAdapter(@NonNull Context context, int resource, @NonNull ArrayList<RouteApp> objects) {
         super(context, resource, objects);
-        contactContext = context;
-        contactResource=resource;
+        routeContext = context;
+        routeResource=resource;
     }
 
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         String header1 = getItem(position).getTitle();
-        String header2 = "kliknij, by rozwinąć listę"; //getItem(position).getLat() + " " + getItem(position).getLon();
-        int drawable = getItem(position).getDrawable(); //R.drawable.ic_museum;
+        String header2 = "kliknij, by rozwinąć listę";
+        int drawable = getItem(position).getDrawable();
 
-        LayoutInflater inflater = LayoutInflater.from(contactContext);
-        convertView = inflater.inflate(contactResource,parent, false);
+        LayoutInflater inflater = LayoutInflater.from(routeContext);
+        convertView = inflater.inflate(routeResource,parent, false);
 
         TextView header1TextView=convertView.findViewById(R.id.header1);
         TextView header2TextView=convertView.findViewById(R.id.header2);
-        ImageView imageView=convertView.findViewById(R.id.contactImageView);
+        ImageView imageView=convertView.findViewById(R.id.imageView);
         header1TextView.setText(header1);
         header2TextView.setText(header2);
         imageView.setImageResource(drawable);

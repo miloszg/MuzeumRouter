@@ -16,14 +16,14 @@
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
     <TextView
-        android:id="@+id/contactTopHeader"
+        android:id="@+id/routeTopHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar"
         android:layout_marginTop="30dp"
         android:text="Lista scieżek"
         android:textAlignment="center"
-        android:textColor="#056fff"
+        android:textColor="#058e7c"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -31,6 +31,6 @@
         android:id="@+id/routeListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/contactTopHeader"
+        android:layout_below="@id/routeTopHeader"
         android:layout_marginTop="20dp" />
 </RelativeLayout>

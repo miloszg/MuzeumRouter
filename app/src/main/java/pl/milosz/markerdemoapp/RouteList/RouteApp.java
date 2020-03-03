@@ -2,16 +2,16 @@ package pl.milosz.markerdemoapp.RouteList;
 
 import java.util.ArrayList;
 
-import pl.milosz.markerdemoapp.MuseumList.Museum;
+import pl.milosz.markerdemoapp.MarkersList.Marker;
 
 public class RouteApp {
     public String title;
-    public ArrayList<Museum> routeMuseums;
+    public ArrayList<Marker> routeMarkers;
     public int drawable;
 
-    public RouteApp(String title, ArrayList<Museum> routeMuseums, int drawable) {
+    public RouteApp(String title, ArrayList<Marker> routeMarkers, int drawable) {
         this.title = title;
-        this.routeMuseums = routeMuseums;
+        this.routeMarkers = routeMarkers;
         this.drawable = drawable;
     }
 
@@ -31,11 +31,11 @@ public class RouteApp {
         this.title = title;
     }
 
-    public ArrayList<Museum> getRouteMuseums() {
-        return routeMuseums;
+    public ArrayList<Marker> getRouteMarkers() {
+        return routeMarkers;
     }
 
-    public void setRouteMuseums(ArrayList<Museum> routeMuseums) {
-        this.routeMuseums = routeMuseums;
+    public void setRouteMarkers(ArrayList<Marker> routeMarkers) {
+        this.routeMarkers = routeMarkers;
     }
 }

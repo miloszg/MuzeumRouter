@@ -22,7 +22,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".HelpActivity"></activity>
         <activity
-            android:name=".MuseumList.MuseumListActivity"
+            android:name=".MarkersList.MarkerListActivity"
             android:theme="@style/AppTheme.GrayActionBar" />
         <activity
             android:name=".Map.MapActivity"

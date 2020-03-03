@@ -27,7 +27,7 @@
 
     <TextView
         android:layout_below="@id/helpHeader"
-        android:textColor="#056fff"
+        android:textColor="#058e7c"
         android:textSize="18sp"
         android:layout_margin="10dp"
         android:text="Exlanation Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur, arcu sed ornare euismod, justo leo facilisis libero, vel tempus urna nibh in purus. Phasellus tincidunt dolor in erat hendrerit finibus. Aenean eget lorem congue, pharetra diam sit amet, pharetra dolor. Duis nisl elit, semper vel pulvinar sed, convallis ac mi. Etiam sollicitudin sed purus eget aliquet. Quisque vel nulla magna. Integer vel ultricies nunc, auctor dapibus nisl. Mauris sed felis ut lacus hendrerit malesuada a at massa. Nulla at magna vitae quam finibus malesuada. Aliquam erat volutpat. Vestibulum et nisi erat. Sed tincidunt auctor justo sed euismod. Curabitur rhoncus, magna eget suscipit luctus, turpis urna pellentesque urna, sed tristique mi urna ut metus. Integer quam erat, malesuada eu ullamcorper et, lobortis in nibh. Nulla et pulvinar arcu."
