@@ -16,6 +16,7 @@ import android.preference.PreferenceManager;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -49,7 +50,10 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
     private Location currentLocation = null;
     private MyLocationNewOverlay locationOverlay;
     private Button buttonAdd;
-    private TextView chooseText;
+    private ImageButton buttonCenter;
+    private ImageButton buttonZoom;
+    private ImageButton buttonZoomOut;
+    private double zoom = 14.5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,7 +69,7 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
         Configuration.getInstance().load(ctx, PreferenceManager.getDefaultSharedPreferences(this));
         Configuration.getInstance().setUserAgentValue(getPackageName());
 
-        chooseText= findViewById(R.id.chooseTextView);
+
         mapView = findViewById(R.id.mapView);
         mapView.setTileSource(TileSourceFactory.MAPNIK);
         mapView.setMultiTouchControls(true);
@@ -77,12 +81,36 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
                 grayedOutMapPicker();
             }
         });
+        buttonCenter = findViewById(R.id.ic_map_center);
+        buttonZoom = findViewById(R.id.ic_map_add);
+        buttonZoomOut = findViewById(R.id.ic_map_minus);
+
+        buttonCenter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                centerMap();
+            }
+        });
 
         //Starting point
         mapController = mapView.getController();
-        mapController.setZoom(14.2);
+        mapController.setZoom(zoom);
         GeoPoint startPoint = new GeoPoint(54.4636543, 18.4717798);
         mapController.setCenter(startPoint);
+
+        buttonZoom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mapController.setZoom(++zoom);
+            }
+        });
+
+        buttonZoomOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mapController.setZoom(--zoom);
+            }
+        });
 
         //Compass
         CompassOverlay mCompassOverlay = new CompassOverlay(this, new InternalCompassOrientationProvider(this), mapView);
@@ -102,11 +130,7 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
         locationOverlay.enableFollowLocation();
         locationOverlay.setOptionsMenuEnabled(true);
         //locationOverlay.setDirectionArrow(currentIcon,currentIcon);
-
-        if (currentLocation != null) {
-            GeoPoint myPosition = new GeoPoint(currentLocation.getLatitude(), currentLocation.getLongitude());
-            mapView.getController().animateTo(myPosition);
-        }
+        centerMap();
 
         //Adding overlays to mapView
         for (Marker m : list) {
@@ -125,6 +149,15 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
 
     }
 
+    private void centerMap() {
+        if (currentLocation != null) {
+            GeoPoint myPosition = new GeoPoint(currentLocation.getLatitude(), currentLocation.getLongitude());
+            mapView.getController().animateTo(myPosition);
+        } else {
+            Toast.makeText(this, "Proszę włączyć lokalizację", Toast.LENGTH_SHORT).show();
+        }
+    }
+
     private void grayedOutMapPicker(){
         ColorMatrix cm = new ColorMatrix();
         float brightness =.5f;
@@ -134,13 +167,13 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
                 0, 0, brightness, 0, 0,    //blue
                 0, 0, 0, 1, 0});    //alpha
         mapView.getOverlayManager().getTilesOverlay().setColorFilter(new ColorMatrixColorFilter(cm));
-        chooseText.setVisibility(View.VISIBLE);
+        buttonAdd.setText("Wybierz punkt na mapie");
         final MapEventsReceiver mReceive = new MapEventsReceiver(){
             @Override
             public boolean singleTapConfirmedHelper(GeoPoint p) {
-                Toast.makeText(getBaseContext(),"Wybrano:" +p.getLatitude() + " - "+p.getLongitude(), Toast.LENGTH_LONG).show();
-                chooseText.setVisibility(View.INVISIBLE);
+                addMarker(p);
                 mapView.getOverlayManager().getTilesOverlay().setColorFilter(null);
+                buttonAdd.setText("Dodaj punkt rozpoczęcia wycieczki");
                 return false;
             }
             @Override
@@ -149,6 +182,15 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
             }
         };
         mapView.getOverlays().add(new MapEventsOverlay(mReceive));
+    }
+
+    private void addMarker(GeoPoint p) {
+        org.osmdroid.views.overlay.Marker positionMarker = new org.osmdroid.views.overlay.Marker(mapView);
+        GeoPoint position = new GeoPoint(p.getLatitude(), p.getLongitude());
+        positionMarker.setIcon(ResourcesCompat.getDrawable(getResources(), R.drawable.ic_add_location, null));
+        positionMarker.setPosition(position);
+        positionMarker.setAnchor(org.osmdroid.views.overlay.Marker.ANCHOR_CENTER, org.osmdroid.views.overlay.Marker.ANCHOR_BOTTOM);
+        mapView.getOverlays().add(positionMarker);
     }
 
     @Override

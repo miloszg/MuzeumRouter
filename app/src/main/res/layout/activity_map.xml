@@ -12,6 +12,44 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
         </org.osmdroid.views.MapView>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ic_map_center"
+            android:src="@drawable/ic_map_center_small"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#00ffffff"
+            android:cropToPadding="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ic_map_add"
+            android:src="@drawable/ic_map_add_small"
+            android:background="#00ffffff"
+            android:cropToPadding="true"
+            android:layout_below="@+id/ic_map_center"
+            android:layout_alignLeft="@+id/ic_map_center"
+            android:layout_alignStart="@+id/ic_map_center"
+            android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ic_map_minus"
+            android:src="@drawable/ic_map_minus_small"
+            android:background="#00ffffff"
+            android:cropToPadding="true"
+            android:layout_below="@+id/ic_map_add"
+            android:layout_alignLeft="@+id/ic_map_add"
+            android:layout_alignStart="@+id/ic_map_add"
+            android:layout_marginTop="10dp" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -26,19 +64,4 @@
             android:textColor="#FFFFFF"
             android:background="@drawable/customshape" />
 
-        <TextView
-            android:id="@+id/chooseTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="100dp"
-            android:layout_marginEnd="40dp"
-            android:layout_marginBottom="40dp"
-            android:padding="5dp"
-            android:text="Wybierz punkt na mapie"
-            android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:visibility="invisible" />
 </RelativeLayout>
