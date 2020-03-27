@@ -35,6 +35,8 @@ public class RouteListActivity extends AppCompatActivity {
         RouteApp route = new RouteApp("Ścieżka Leśna",routeArray,R.drawable.ic_flower);
         routeList.add(route);
 
+        int doubleTest = 1;
+
         routerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
