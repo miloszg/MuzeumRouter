@@ -8,18 +8,24 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
+import android.graphics.drawable.BitmapDrawable;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.text.Layout;
 import android.util.DisplayMetrics;
+import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.res.ResourcesCompat;
@@ -53,7 +59,12 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
     private ImageButton buttonCenter;
     private ImageButton buttonZoom;
     private ImageButton buttonZoomOut;
+
+    private AlertDialog myAlertdialog;
+    boolean close = false;
     private double zoom = 14.5;
+
+    RelativeLayout relativeLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +75,7 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
                 ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
             }
         setContentView(R.layout.activity_map);
+        relativeLayout = findViewById(R.id.mapLayout);
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
         Context ctx = getApplicationContext();
         Configuration.getInstance().load(ctx, PreferenceManager.getDefaultSharedPreferences(this));
@@ -124,11 +136,12 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
 
         //Current location marker
         locationOverlay = new MyLocationNewOverlay(new GpsMyLocationProvider(this), mapView);
-        Bitmap currentIcon = BitmapFactory.decodeResource(getResources(),R.drawable.ic_navigation);
-        //Bitmap currentIcon = ((BitmapDrawable) ResourcesCompat.getDrawable(getResources(), R.drawable.ic_navigation, null)).getBitmap();
+        //Bitmap currentIcon = BitmapFactory.decodeResource(getResources(),R.drawable.ic_arrow_upward_black_24dp);
+        //Bitmap currentIcon = ((BitmapDrawable) ResourcesCompat.getDrawable(getResources(), R.drawable.small_arrow, null)).getBitmap();
         locationOverlay.enableMyLocation();
-        locationOverlay.enableFollowLocation();
+        locationOverlay.disableFollowLocation();
         locationOverlay.setOptionsMenuEnabled(true);
+        //locationOverlay.setPersonIcon(currentIcon);
         //locationOverlay.setDirectionArrow(currentIcon,currentIcon);
         centerMap();
 
@@ -141,6 +154,8 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
             marker.setPosition(position);
             marker.setAnchor(org.osmdroid.views.overlay.Marker.ANCHOR_CENTER, org.osmdroid.views.overlay.Marker.ANCHOR_BOTTOM);
             mapView.getOverlays().add(marker);
+
+
         }
         mapView.getOverlays().add(locationOverlay);
         mapView.getOverlays().add(mCompassOverlay);
@@ -148,6 +163,20 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
 
 
     }
+
+    private void buildDialog() {
+        myAlertdialog = new AlertDialog.Builder(this).create();
+        LayoutInflater inflater = this.getLayoutInflater();
+        View icon_dialog = inflater.inflate(R.layout.dialog_picker, null);
+        myAlertdialog.setView(icon_dialog);
+
+        myAlertdialog.show();
+        if (close) {
+            myAlertdialog.cancel();
+            myAlertdialog.dismiss();
+        }
+    }
+
 
     private void centerMap() {
         if (currentLocation != null) {
@@ -158,17 +187,17 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
         }
     }
 
-    private void grayedOutMapPicker(){
+    private void grayedOutMapPicker() {
         ColorMatrix cm = new ColorMatrix();
-        float brightness =.5f;
-        cm.set(new float[] {
+        float brightness = .5f;
+        cm.set(new float[]{
                 brightness, 0, 0, 0, 0,    //red
                 0, brightness, 0, 0, 0,    //green
                 0, 0, brightness, 0, 0,    //blue
                 0, 0, 0, 1, 0});    //alpha
         mapView.getOverlayManager().getTilesOverlay().setColorFilter(new ColorMatrixColorFilter(cm));
         buttonAdd.setText("Wybierz punkt na mapie");
-        final MapEventsReceiver mReceive = new MapEventsReceiver(){
+        final MapEventsReceiver mReceive = new MapEventsReceiver() {
             @Override
             public boolean singleTapConfirmedHelper(GeoPoint p) {
                 addMarker(p);
@@ -176,12 +205,36 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
                 buttonAdd.setText("Dodaj punkt rozpoczęcia wycieczki");
                 return false;
             }
+
             @Override
             public boolean longPressHelper(GeoPoint p) {
                 return false;
             }
         };
         mapView.getOverlays().add(new MapEventsOverlay(mReceive));
+    }
+
+    public void onClick(View view) {
+        String tag = String.valueOf(view.getTag());
+        Log.i("clicked", tag);
+
+
+        switch (tag) {
+            case "30":
+                Toast.makeText(this, "wybrano 30", Toast.LENGTH_SHORT).show();
+                break;
+            case "50":
+                Toast.makeText(this, "wybrano 50", Toast.LENGTH_SHORT).show();
+                break;
+            case "90":
+                Toast.makeText(this, "wybrano 90", Toast.LENGTH_SHORT).show();
+                break;
+            case "120":
+                Toast.makeText(this, "wybrano 120", Toast.LENGTH_SHORT).show();
+                break;
+        }
+
+        close = true;
     }
 
     private void addMarker(GeoPoint p) {
@@ -191,14 +244,17 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
         positionMarker.setPosition(position);
         positionMarker.setAnchor(org.osmdroid.views.overlay.Marker.ANCHOR_CENTER, org.osmdroid.views.overlay.Marker.ANCHOR_BOTTOM);
         mapView.getOverlays().add(positionMarker);
+        close = false;
+        buildDialog();
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        try{
+        try {
             lm.removeUpdates(this);
-        }catch (Exception ex){}
+        } catch (Exception ex) {
+        }
 
         locationOverlay.disableFollowLocation();
         locationOverlay.disableMyLocation();
@@ -222,7 +278,8 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
                 return;
             }
             lm.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0l, 0f, this);
-        }catch (Exception ex){}
+        } catch (Exception ex) {
+        }
 
         locationOverlay.enableFollowLocation();
         locationOverlay.enableMyLocation();
@@ -232,9 +289,9 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        lm=null;
-        currentLocation=null;
-        locationOverlay=null;
+        lm = null;
+        currentLocation = null;
+        locationOverlay = null;
     }
 
     @Override
@@ -243,11 +300,14 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
     }
 
     @Override
-    public void onStatusChanged(String provider, int status, Bundle extras) { }
+    public void onStatusChanged(String provider, int status, Bundle extras) {
+    }
 
     @Override
-    public void onProviderEnabled(String provider) { }
+    public void onProviderEnabled(String provider) {
+    }
 
     @Override
-    public void onProviderDisabled(String provider) { }
+    public void onProviderDisabled(String provider) {
+    }
 }

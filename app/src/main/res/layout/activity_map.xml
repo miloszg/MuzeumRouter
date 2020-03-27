@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="#058e7c"
     tools:context=".Map.MapActivity"
+    android:id="@+id/mapLayout"
     android:orientation="horizontal">
         <org.osmdroid.views.MapView
             android:id="@+id/mapView"
