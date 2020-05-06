@@ -30,6 +30,7 @@ import java.util.Map;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import pl.milosz.markerdemoapp.Algorithm.RouteFinder;
 import pl.milosz.markerdemoapp.MarkersList.Marker;
 import pl.milosz.markerdemoapp.MarkersList.MarkerListActivity;
 import pl.milosz.markerdemoapp.Map.MapActivity;
@@ -132,8 +133,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch (menuItem.getItemId()) {
             case R.id.nav_map:
-                Intent mapIntent = new Intent(this, MapActivity.class);
-                startActivity(mapIntent);
+                RouteFinder finder = new RouteFinder();
+                String result = finder.find();
+                Toast.makeText(this, result, Toast.LENGTH_LONG).show();
+//                Intent mapIntent = new Intent(this, MapActivity.class);
+//                startActivity(mapIntent);
                 break;
             case R.id.nav_marker:
                 Intent markerIntent = new Intent(this, MarkerListActivity.class);

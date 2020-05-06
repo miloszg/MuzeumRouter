@@ -69,11 +69,12 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M)
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
             if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
                     && ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
                 ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
             }
+        }
         setContentView(R.layout.activity_map);
         relativeLayout = findViewById(R.id.mapLayout);
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
@@ -217,23 +218,7 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
     public void onClick(View view) {
         String tag = String.valueOf(view.getTag());
         Log.i("clicked", tag);
-
-
-        switch (tag) {
-            case "30":
-                Toast.makeText(this, "wybrano 30", Toast.LENGTH_SHORT).show();
-                break;
-            case "50":
-                Toast.makeText(this, "wybrano 50", Toast.LENGTH_SHORT).show();
-                break;
-            case "90":
-                Toast.makeText(this, "wybrano 90", Toast.LENGTH_SHORT).show();
-                break;
-            case "120":
-                Toast.makeText(this, "wybrano 120", Toast.LENGTH_SHORT).show();
-                break;
-        }
-
+        Toast.makeText(this, "wybrano " + tag, Toast.LENGTH_SHORT).show();
         close = true;
     }
 
