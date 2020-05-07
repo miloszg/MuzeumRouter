@@ -133,11 +133,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch (menuItem.getItemId()) {
             case R.id.nav_map:
-                RouteFinder finder = new RouteFinder();
-                String result = finder.find();
-                Toast.makeText(this, result, Toast.LENGTH_LONG).show();
-//                Intent mapIntent = new Intent(this, MapActivity.class);
-//                startActivity(mapIntent);
+                Intent mapIntent = new Intent(this, MapActivity.class);
+                startActivity(mapIntent);
                 break;
             case R.id.nav_marker:
                 Intent markerIntent = new Intent(this, MarkerListActivity.class);

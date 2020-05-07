@@ -1,111 +1,72 @@
 package pl.milosz.markerdemoapp.Algorithm;
 
-/*import org.jacop.constraints.XneqY;
-import org.jacop.core.IntVar;
-import org.jacop.core.Store;
-import org.jacop.search.*;*/
-
+import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
-import android.os.Environment;
-import android.util.Log;
-//import com.graphhopper.GHRequest;
-//import com.graphhopper.GHResponse;
-//import com.graphhopper.GraphHopper;
-//import com.graphhopper.PathWrapper;
-//import com.graphhopper.util.Parameters;
-//import com.graphhopper.util.StopWatch;
-import lombok.extern.slf4j.Slf4j;
+import android.widget.Toast;
 
-import java.io.File;
+import org.osmdroid.bonuspack.routing.MapQuestRoadManager;
+import org.osmdroid.bonuspack.routing.Road;
+import org.osmdroid.bonuspack.routing.RoadManager;
+import org.osmdroid.bonuspack.routing.RoadNode;
+import org.osmdroid.util.GeoPoint;
+import org.osmdroid.views.MapView;
+import org.osmdroid.views.overlay.Marker;
+import org.osmdroid.views.overlay.Polyline;
 
-@Slf4j
-public class RouteFinder {
+import java.util.ArrayList;
 
-//    private GraphHopper hopper;
-    private File mapsFolder;
-    private String currentArea = "berlin";
+import androidx.core.content.res.ResourcesCompat;
+import pl.milosz.markerdemoapp.R;
 
-    public RouteFinder() {
-        if (!Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
-            log("GraphHopper is not usable without an external storage!");
-            return;
-        }
-        mapsFolder = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
-                "/graphhopper/maps/");
+public class RouteFinder extends AsyncTask<ArrayList<GeoPoint>, Void, Road> {
 
-//        GraphHopper tmpHopp = new GraphHopper().forMobile();
-//        tmpHopp.load(new File(mapsFolder, currentArea).getAbsolutePath() + "-gh");
-//        log("found graph " + tmpHopp.getGraphHopperStorage().toString() + ", nodes:" + tmpHopp.getGraphHopperStorage().getNodes());
-//        hopper = tmpHopp;
+  private final RoadManager roadManager;
+  private final MapView mapView;
+  private final Context context;
+
+  public RouteFinder(MapView mapView, Context context) {
+    this.context = context;
+    this.roadManager = new MapQuestRoadManager("Gnw2RCzFV27bTy3ui3SXGBva7rmc2X7L");
+    this.roadManager.addRequestOption("routeType=bicycle");
+    this.mapView = mapView;
+  }
+
+  private ArrayList<Marker> markers = new ArrayList<>();
+
+  @Override
+  protected Road doInBackground(ArrayList<GeoPoint>... waypoints) {
+    Road road = roadManager.getRoad(waypoints[0]);
+
+    Drawable nodeIcon = ResourcesCompat.getDrawable(context.getResources(), R.drawable.marker_node, null);
+    for (int i = 0; i < road.mNodes.size(); i++) {
+      RoadNode node = road.mNodes.get(i);
+      Marker nodeMarker = new Marker(mapView);
+      nodeMarker.setPosition(node.mLocation);
+      nodeMarker.setIcon(nodeIcon);
+      nodeMarker.setTitle("Step " + i);
+      nodeMarker.setSnippet(node.mInstructions);
+      nodeMarker.setSubDescription(Road.getLengthDurationText(context, node.mLength, node.mDuration));
+//      Drawable icon = ResourcesCompat.getDrawable(context.getResources(), R.drawable.marker_node, null);
+//      nodeMarker.setImage(icon);
+      markers.add(nodeMarker);
     }
 
-    public String find() {
-        final double fromLat = 0.0d;
-        final double fromLon = 0.0d;
-        final double toLat = 1.0d;
-        final double toLon = 1.0d;
+    return road;
+  }
 
-        log("calculating path ...");
+  @Override
+  protected void onPostExecute(Road road) {
+    showSummary(Road.getLengthDurationText(context, road.mLength, road.mDuration));
+    Polyline polyline = RoadManager.buildRoadOverlay(road);
+    mapView.getOverlays().addAll(markers);
+    mapView.getOverlays().add(polyline);
+    mapView.invalidate();
+  }
 
-        new AsyncTask<Void, Void, PathWrapper>() {
-            float time;
 
-            protected PathWrapper doInBackground(Void... v) {
-                StopWatch sw = new StopWatch().start();
-                GHRequest req = new GHRequest(fromLat, fromLon, toLat, toLon).
-                        setAlgorithm(Parameters.Algorithms.DIJKSTRA_BI);
-                req.getHints().
-                        putObject(Parameters.Routing.INSTRUCTIONS, "false");
-                GHResponse resp = hopper.route(req);
-                time = sw.stop().getSeconds();
-                return resp.getBest();
-            }
-
-            protected void onPostExecute(PathWrapper resp) {
-                if (!resp.hasErrors()) {
-                    log("from:" + fromLat + "," + fromLon + " to:" + toLat + ","
-                            + toLon + " found path with distance:" + resp.getDistance()
-                            / 1000f + ", nodes:" + resp.getPoints().getSize() + ", time:"
-                            + time + " " + resp.getDebugInfo());
-                    log("the route is " + (int) (resp.getDistance() / 100) / 10f
-                            + "km long, time:" + resp.getTime() / 60000f + "min, debug:" + time);
-
-                } else {
-                    log("Error:" + resp.getErrors());
-                }
-            }
-        }.execute();
-
-        /*Store store = new Store();
-
-        int size = 4;
-        // define finite domain variables
-        IntVar[] v = new IntVar[size];
-        for (int i = 0; i < size; i++) {
-            v[i] = new IntVar(store, "v" + i, 1, size);
-        }
-        // define constraints
-        store.impose(new XneqY(v[0], v[1]));
-        store.impose(new XneqY(v[0], v[2]));
-        store.impose(new XneqY(v[1], v[2]));
-        store.impose(new XneqY(v[1], v[3]));
-        store.impose(new XneqY(v[2], v[3]));
-
-        // search for a solution and print results
-        Search<IntVar> search = new DepthFirstSearch<>();
-        SelectChoicePoint<IntVar> select =
-                new InputOrderSelect<>(store, v, new IndomainMin<>());
-        boolean result = search.labeling(store, select);
-
-        if (result) {
-            return "Solution: " + v[0] + ", " + v[1] + ", " + v[2] + ", " + v[3];
-        } else {
-            return "*** No";
-        }*/
-        return "";
-    }
-
-    private void log(String msg) {
-        Log.d("RouteFinder", msg);
-    }
+  private void showSummary(String lengthDurationText) {
+    Toast.makeText(context,
+        "Podsumowanie: " + lengthDurationText, Toast.LENGTH_LONG).show();
+  }
 }
