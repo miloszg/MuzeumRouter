@@ -6,7 +6,6 @@ import java.util.Comparator;
 import java.util.stream.Collectors;
 
 public class BruteForce {
-    static int permutation = 1;
     private final ArrayList<Route> shortestRoutes = new ArrayList<>();
 
     public Route findShortestRoute(ArrayList<City> cities) {
