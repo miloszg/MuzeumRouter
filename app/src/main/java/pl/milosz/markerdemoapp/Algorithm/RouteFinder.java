@@ -1,11 +1,13 @@
 package pl.milosz.markerdemoapp.Algorithm;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.widget.Toast;
 import org.osmdroid.bonuspack.routing.MapQuestRoadManager;
 import org.osmdroid.bonuspack.routing.Road;
 import org.osmdroid.bonuspack.routing.RoadManager;
+import org.osmdroid.bonuspack.routing.RoadNode;
 import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.MapView;
 import org.osmdroid.views.overlay.Marker;
@@ -14,26 +16,39 @@ import org.osmdroid.views.overlay.Polyline;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
+import androidx.core.content.res.ResourcesCompat;
+import pl.milosz.markerdemoapp.R;
+
 public class RouteFinder extends AsyncTask<ArrayList<GeoPoint>, Void, Road> {
 
     private final RoadManager roadManager;
+    private final GeoPoint startPoint;
+    private final GeoPoint endPoint;
+    private final int limitDistance;
     private final MapView mapView;
     private final Context context;
 
-    public RouteFinder(MapView mapView, Context context) {
+    public RouteFinder(MapView mapView, GeoPoint startPoint, GeoPoint endPoint, int limitDistance, Context context) {
+        this.limitDistance = limitDistance;
         this.context = context;
         this.roadManager = new MapQuestRoadManager("Gnw2RCzFV27bTy3ui3SXGBva7rmc2X7L");
         this.roadManager.addRequestOption("routeType=bicycle");
         this.mapView = mapView;
+        this.startPoint = startPoint;
+        this.endPoint = endPoint;
     }
 
     private ArrayList<Marker> markers = new ArrayList<>();
 
     @Override
     protected Road doInBackground(ArrayList<GeoPoint>... waypoints) {
-        ArrayList<GeoPoint> shortestRouteWaypoints = getShortestRoute(waypoints[0]);
+        ArrayList<GeoPoint> wps = waypoints[0];
+        wps.add(0, startPoint);
+        ArrayList<GeoPoint> shortestRoute = getShortestRoute(wps);
+        shortestRoute.add(endPoint);
 
-        /*Road road = roadManager.getRoad(shortestRouteWaypoints);
+        Road road = roadManager.getRoad(shortestRoute);
+//        Road road = roadManager.getRoad(wps);
 
         Drawable nodeIcon = ResourcesCompat.getDrawable(context.getResources(), R.drawable.marker_node, null);
         for (int i = 0; i < road.mNodes.size(); i++) {
@@ -49,17 +64,16 @@ public class RouteFinder extends AsyncTask<ArrayList<GeoPoint>, Void, Road> {
             markers.add(nodeMarker);
         }
 
-        return road;*/
-        return null;
+        return road;
     }
 
     private ArrayList<GeoPoint> getShortestRoute(ArrayList<GeoPoint> waypoints) {
-        return new NearestNeighbor().findShortestRoute(
+        return new NearestNeighbor().findShortestRouteWithLimitDistance(
                 waypoints
                         .stream()
                         .map(x -> new City(x.getLatitude(), x.getLongitude()))
                         .collect(Collectors.toCollection(ArrayList::new)
-                        ))
+                        ), limitDistance)
                 .getCities()
                 .stream()
                 .map(x -> new GeoPoint(x.getLatitude(), x.getLongitude()))

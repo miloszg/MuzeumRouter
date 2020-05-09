@@ -30,7 +30,6 @@ import java.util.Map;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-import pl.milosz.markerdemoapp.Algorithm.RouteFinder;
 import pl.milosz.markerdemoapp.MarkersList.Marker;
 import pl.milosz.markerdemoapp.MarkersList.MarkerListActivity;
 import pl.milosz.markerdemoapp.Map.MapActivity;

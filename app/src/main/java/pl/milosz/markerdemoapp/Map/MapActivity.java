@@ -233,11 +233,9 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
         addRectangle(startPoint, maxRouteDistance, maxRouteDistance);
         List<GeoPoint> listGeoPointsOnlyInRectangle = getLimitedGeoPoints();
 
-        RouteFinder routeFinder = new RouteFinder(mapView, this);
+        RouteFinder routeFinder = new RouteFinder(mapView, startPoint, startPoint, maxRouteDistance, this);
         ArrayList<GeoPoint> waypoints = new ArrayList<>(listGeoPointsOnlyInRectangle.size() + 2);
-        waypoints.add(startPoint);
         waypoints.addAll(listGeoPointsOnlyInRectangle);
-        waypoints.add(startPoint);
         routeFinder.execute(waypoints);
         closeDialog();
     }

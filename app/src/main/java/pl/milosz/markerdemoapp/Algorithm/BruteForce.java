@@ -24,7 +24,7 @@ public class BruteForce {
         });
 
         if (x == currentRoute.getCities().size() - 1) {
-            System.out.println(currentRoute + " |      " + getTotalDistance(currentRoute));
+//            System.out.println(currentRoute + " |      " + getTotalDistance(currentRoute));
             if (currentRoute.calculateTotalDistance() <= shortestRoute.calculateTotalDistance()) {
                 shortestRoute.getCities().clear();
                 shortestRoute.getCities().addAll(currentRoute.getCities());
@@ -34,7 +34,7 @@ public class BruteForce {
         return shortestRoutes;
     }
 
-    public void addToShortestRoutes(Route route) {
+    private void addToShortestRoutes(Route route) {
         shortestRoutes.removeIf(x -> x.calculateTotalDistance() > route.calculateTotalDistance());
         shortestRoutes.add(route);
     }
