@@ -28,6 +28,8 @@ public class RouteFinder extends AsyncTask<ArrayList<GeoPoint>, Void, Road> {
     private final MapView mapView;
     private final Context context;
 
+    private ArrayList<Marker> markers = new ArrayList<>();
+
     public RouteFinder(MapView mapView, GeoPoint startPoint, GeoPoint endPoint, int limitDistance, Context context) {
         this.limitDistance = limitDistance;
         this.context = context;
@@ -37,8 +39,6 @@ public class RouteFinder extends AsyncTask<ArrayList<GeoPoint>, Void, Road> {
         this.startPoint = startPoint;
         this.endPoint = endPoint;
     }
-
-    private ArrayList<Marker> markers = new ArrayList<>();
 
     @Override
     protected Road doInBackground(ArrayList<GeoPoint>... waypoints) {
