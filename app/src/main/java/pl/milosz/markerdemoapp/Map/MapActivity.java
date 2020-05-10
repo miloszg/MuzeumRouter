@@ -44,6 +44,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import pl.milosz.markerdemoapp.Algorithm.City;
 import pl.milosz.markerdemoapp.Algorithm.RouteFinder;
 import pl.milosz.markerdemoapp.MarkersList.Marker;
 import pl.milosz.markerdemoapp.R;
@@ -241,11 +242,17 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
     }
 
     private List<GeoPoint> getLimitedGeoPoints() {
-        List<GeoPoint> fromBoundingCircle = list.stream().filter(m ->
+        List<GeoPoint> fromBoundingBox = list.stream().filter(m ->
             Math.abs(Double.parseDouble(m.getLat()) - startPoint.getLatitude()) < maxLatitudeSpan
                 && Math.abs(Double.parseDouble(m.getLon()) - startPoint.getLongitude()) < maxLongitudeSpan)
             .map(m -> new GeoPoint(Double.parseDouble(m.getLat()), Double.parseDouble(m.getLon())))
             .collect(Collectors.toList());
+
+        List<GeoPoint> fromBoundingCircle = fromBoundingBox
+                .stream()
+                .filter(m -> new City(m.getLatitude(), m.getLongitude())
+                        .measureDistance(new City(startPoint.getLatitude(), startPoint.getLongitude())) <= (double)(maxRouteDistance / 2))
+                .collect(Collectors.toList());
 
         while (fromBoundingCircle.size() > 25) { // MapQuest free supports 50 - 2 for start and end of route, but we limit it because it is too heavy
             int indexToRemove = (int)(Math.random() * fromBoundingCircle.size());
