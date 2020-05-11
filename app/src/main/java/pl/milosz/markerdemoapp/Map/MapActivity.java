@@ -4,17 +4,13 @@ import android.Manifest;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
-import android.graphics.drawable.BitmapDrawable;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.text.Layout;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -22,7 +18,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
@@ -30,6 +25,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.res.ResourcesCompat;
 
+import org.osmdroid.api.IGeoPoint;
 import org.osmdroid.api.IMapController;
 import org.osmdroid.config.Configuration;
 import org.osmdroid.events.MapEventsReceiver;
@@ -37,12 +33,19 @@ import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
 import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.MapView;
 import org.osmdroid.views.overlay.MapEventsOverlay;
+import org.osmdroid.views.overlay.Polygon;
 import org.osmdroid.views.overlay.ScaleBarOverlay;
 import org.osmdroid.views.overlay.compass.CompassOverlay;
 import org.osmdroid.views.overlay.compass.InternalCompassOrientationProvider;
 import org.osmdroid.views.overlay.mylocation.GpsMyLocationProvider;
 import org.osmdroid.views.overlay.mylocation.MyLocationNewOverlay;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import pl.milosz.markerdemoapp.Algorithm.City;
+import pl.milosz.markerdemoapp.Algorithm.RouteFinder;
 import pl.milosz.markerdemoapp.MarkersList.Marker;
 import pl.milosz.markerdemoapp.R;
 
@@ -50,6 +53,10 @@ import static pl.milosz.markerdemoapp.MarkersList.MarkerListActivity.list;
 
 public class MapActivity extends AppCompatActivity implements LocationListener {
     private static final String TAG = "MapActivity";
+    public static final int KILOMETERS_TO_METERS = 1000;
+    private static double LATITUDE_DEG_TO_KILOMETERS = 110.574;
+    private static final double LONGITUDE_DEG_TO_KILOMETERS = 111.320;
+
     IMapController mapController;
     public static MapView mapView;
     private LocationManager lm;
@@ -61,19 +68,24 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
     private ImageButton buttonZoomOut;
 
     private AlertDialog myAlertdialog;
-    boolean close = false;
     private double zoom = 14.5;
+
+    private GeoPoint startPoint;
+    private int maxRouteDistance = 0;
+    private double maxLatitudeSpan = 0;
+    private double maxLongitudeSpan = 0;
 
     RelativeLayout relativeLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M)
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
             if (ActivityCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
                     && ActivityCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
                 ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
             }
+        }
         setContentView(R.layout.activity_map);
         relativeLayout = findViewById(R.id.mapLayout);
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
@@ -171,10 +183,6 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
         myAlertdialog.setView(icon_dialog);
 
         myAlertdialog.show();
-        if (close) {
-            myAlertdialog.cancel();
-            myAlertdialog.dismiss();
-        }
     }
 
 
@@ -201,6 +209,7 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
             @Override
             public boolean singleTapConfirmedHelper(GeoPoint p) {
                 addMarker(p);
+                startPoint = p;
                 mapView.getOverlayManager().getTilesOverlay().setColorFilter(null);
                 buttonAdd.setText("Dodaj punkt rozpoczęcia wycieczki");
                 return false;
@@ -217,24 +226,54 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
     public void onClick(View view) {
         String tag = String.valueOf(view.getTag());
         Log.i("clicked", tag);
+        Toast.makeText(this, "wybrano " + tag, Toast.LENGTH_SHORT).show();
+        maxRouteDistance = Integer.parseInt(tag);
+        maxLatitudeSpan = calculateMaxLatitudeSpan(maxRouteDistance);
+        maxLongitudeSpan = calculateMaxLongitudeSpan(maxRouteDistance, startPoint.getLatitude());
+        addCircle(startPoint, (double) maxRouteDistance / 2);
+        addRectangle(startPoint, maxRouteDistance, maxRouteDistance);
+        List<GeoPoint> listGeoPointsOnlyInRectangle = getLimitedGeoPoints();
 
+        RouteFinder routeFinder = new RouteFinder(mapView, startPoint, startPoint, maxRouteDistance, this);
+        ArrayList<GeoPoint> waypoints = new ArrayList<>(listGeoPointsOnlyInRectangle.size() + 2);
+        waypoints.addAll(listGeoPointsOnlyInRectangle);
+        routeFinder.execute(waypoints);
+        closeDialog();
+    }
 
-        switch (tag) {
-            case "30":
-                Toast.makeText(this, "wybrano 30", Toast.LENGTH_SHORT).show();
-                break;
-            case "50":
-                Toast.makeText(this, "wybrano 50", Toast.LENGTH_SHORT).show();
-                break;
-            case "90":
-                Toast.makeText(this, "wybrano 90", Toast.LENGTH_SHORT).show();
-                break;
-            case "120":
-                Toast.makeText(this, "wybrano 120", Toast.LENGTH_SHORT).show();
-                break;
+    private List<GeoPoint> getLimitedGeoPoints() {
+        List<GeoPoint> fromBoundingBox = list.stream().filter(m ->
+            Math.abs(Double.parseDouble(m.getLat()) - startPoint.getLatitude()) < maxLatitudeSpan
+                && Math.abs(Double.parseDouble(m.getLon()) - startPoint.getLongitude()) < maxLongitudeSpan)
+            .map(m -> new GeoPoint(Double.parseDouble(m.getLat()), Double.parseDouble(m.getLon())))
+            .collect(Collectors.toList());
+
+        List<GeoPoint> fromBoundingCircle = fromBoundingBox
+                .stream()
+                .filter(m -> new City(m.getLatitude(), m.getLongitude())
+                        .measureDistance(new City(startPoint.getLatitude(), startPoint.getLongitude())) <= (double)(maxRouteDistance / 2))
+                .collect(Collectors.toList());
+
+        while (fromBoundingCircle.size() > 25) { // MapQuest free supports 50 - 2 for start and end of route, but we limit it because it is too heavy
+            int indexToRemove = (int)(Math.random() * fromBoundingCircle.size());
+            fromBoundingCircle.remove(indexToRemove);
         }
 
-        close = true;
+        return fromBoundingCircle;
+    }
+
+    private double calculateMaxLatitudeSpan(int maxRouteDistance) {
+        return (maxRouteDistance / 2) / LATITUDE_DEG_TO_KILOMETERS;
+    }
+
+    private double calculateMaxLongitudeSpan(int maxRouteDistance, double latitude) {
+        return (maxRouteDistance / 2) /
+            (LONGITUDE_DEG_TO_KILOMETERS * Math.cos(Math.toRadians(latitude)));
+    }
+
+    private void closeDialog() {
+        myAlertdialog.cancel();
+        myAlertdialog.dismiss();
     }
 
     private void addMarker(GeoPoint p) {
@@ -244,8 +283,28 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
         positionMarker.setPosition(position);
         positionMarker.setAnchor(org.osmdroid.views.overlay.Marker.ANCHOR_CENTER, org.osmdroid.views.overlay.Marker.ANCHOR_BOTTOM);
         mapView.getOverlays().add(positionMarker);
-        close = false;
         buildDialog();
+    }
+
+    private void addCircle(GeoPoint center, double maxDistance) {
+        List<GeoPoint> circle =
+            Polygon.pointsAsCircle(center, maxDistance * KILOMETERS_TO_METERS);
+        Polygon p = new Polygon(mapView);
+        p.setPoints(circle);
+//        p.setTitle("Maksymalna odległość wycieczki");
+        mapView.getOverlayManager().add(p);
+        mapView.invalidate();
+    }
+
+    private void addRectangle(GeoPoint center, double maxDistLen, double maxDistWid) {
+        ArrayList<IGeoPoint> rect = Polygon.pointsAsRect(center,
+            maxDistLen * KILOMETERS_TO_METERS,
+            maxDistWid * KILOMETERS_TO_METERS);
+        Polygon p = new Polygon(mapView);
+        p.setPoints(rect.stream().map(GeoPoint::new).collect(Collectors.toList()));
+//        p.setTitle("Maksymalna odległość wycieczki");
+        mapView.getOverlayManager().add(p);
+        mapView.invalidate();
     }
 
     @Override
