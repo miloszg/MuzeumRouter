@@ -7,9 +7,6 @@ public class NearestNeighbor {
 
     public Route findShortestRoute(ArrayList<City> cities) {
         ArrayList<City> shortestRoute = new ArrayList<>(cities.size());
-//        System.out.println("Initial Route          ==> " + Arrays.toString(cities.toArray()));
-//        System.out.println("total distance:  " + new Route(cities).calculateTotalDistance());
-//        System.out.println("------------");
         City city = cities.get(0);
         updateRoutes(shortestRoute, cities, city);
         while (cities.size() >= 1) {
@@ -22,9 +19,6 @@ public class NearestNeighbor {
 
     public Route findShortestRouteWithLimitDistance(ArrayList<City> cities, int limitDistance) {
         ArrayList<City> shortestRoute = new ArrayList<>(cities.size());
-//        System.out.println("Initial Route          ==> " + Arrays.toString(cities.toArray()));
-//        System.out.println("total distance:  " + new Route(cities).calculateTotalDistance());
-//        System.out.println("------------");
         City startCity = cities.get(0);
         City city = startCity;
         updateRoutes(shortestRoute, cities, city);
@@ -49,10 +43,6 @@ public class NearestNeighbor {
     private void updateRoutes(ArrayList<City> shortestRoute, ArrayList<City> cities, City city) {
         shortestRoute.add(city);
         cities.remove(city);
-
-//        System.out.println("Cities in Shortest Route  => " + Arrays.toString(shortestRoute.toArray()));
-//        System.out.println("Remaining cities          => " + Arrays.toString(cities.toArray()));
-//        System.out.println("");
     }
 
     private City getNextCity(ArrayList<City> cities, City city) {

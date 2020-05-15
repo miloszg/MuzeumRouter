@@ -33,8 +33,8 @@ public class RouteFinder extends AsyncTask<ArrayList<GeoPoint>, Void, Road> {
     public RouteFinder(MapView mapView, GeoPoint startPoint, GeoPoint endPoint, int limitDistance, Context context) {
         this.limitDistance = limitDistance;
         this.context = context;
-        this.roadManager = new MapQuestRoadManager("Gnw2RCzFV27bTy3ui3SXGBva7rmc2X7L");
-        this.roadManager.addRequestOption("routeType=bicycle");
+        this.roadManager = new MapQuestRoadManager("Gnw2RCzFV27bTy3ui3SXGBva7rmc2X7L"); // Developer API key from MapQuest
+        this.roadManager.addRequestOption("routeType=pedestrian"); // "pedestrian", "bicycle"
         this.mapView = mapView;
         this.startPoint = startPoint;
         this.endPoint = endPoint;
@@ -48,7 +48,6 @@ public class RouteFinder extends AsyncTask<ArrayList<GeoPoint>, Void, Road> {
         shortestRoute.add(endPoint);
 
         Road road = roadManager.getRoad(shortestRoute);
-//        Road road = roadManager.getRoad(wps);
 
         Drawable nodeIcon = ResourcesCompat.getDrawable(context.getResources(), R.drawable.marker_node, null);
         for (int i = 0; i < road.mNodes.size(); i++) {
@@ -59,8 +58,6 @@ public class RouteFinder extends AsyncTask<ArrayList<GeoPoint>, Void, Road> {
             nodeMarker.setTitle("Step " + i);
             nodeMarker.setSnippet(node.mInstructions);
             nodeMarker.setSubDescription(Road.getLengthDurationText(context, node.mLength, node.mDuration));
-//      Drawable icon = ResourcesCompat.getDrawable(context.getResources(), R.drawable.marker_node, null);
-//      nodeMarker.setImage(icon);
             markers.add(nodeMarker);
         }
 

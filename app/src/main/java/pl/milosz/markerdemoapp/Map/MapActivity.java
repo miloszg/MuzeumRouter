@@ -231,7 +231,7 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
         maxLatitudeSpan = calculateMaxLatitudeSpan(maxRouteDistance);
         maxLongitudeSpan = calculateMaxLongitudeSpan(maxRouteDistance, startPoint.getLatitude());
         addCircle(startPoint, (double) maxRouteDistance / 2);
-        addRectangle(startPoint, maxRouteDistance, maxRouteDistance);
+//        addRectangle(startPoint, maxRouteDistance, maxRouteDistance);
         List<GeoPoint> listGeoPointsOnlyInRectangle = getLimitedGeoPoints();
 
         RouteFinder routeFinder = new RouteFinder(mapView, startPoint, startPoint, maxRouteDistance, this);
@@ -291,7 +291,6 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
             Polygon.pointsAsCircle(center, maxDistance * KILOMETERS_TO_METERS);
         Polygon p = new Polygon(mapView);
         p.setPoints(circle);
-//        p.setTitle("Maksymalna odległość wycieczki");
         mapView.getOverlayManager().add(p);
         mapView.invalidate();
     }
@@ -302,7 +301,6 @@ public class MapActivity extends AppCompatActivity implements LocationListener {
             maxDistWid * KILOMETERS_TO_METERS);
         Polygon p = new Polygon(mapView);
         p.setPoints(rect.stream().map(GeoPoint::new).collect(Collectors.toList()));
-//        p.setTitle("Maksymalna odległość wycieczki");
         mapView.getOverlayManager().add(p);
         mapView.invalidate();
     }
