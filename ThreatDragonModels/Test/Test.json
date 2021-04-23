@@ -5,7 +5,11 @@
     "description": "test"
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "me"
+      }
+    ],
     "diagrams": [
       {
         "title": "Test diagram",
